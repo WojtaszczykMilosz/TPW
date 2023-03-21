@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-
+using ViewModel;
 
 namespace View
 {
@@ -10,7 +10,10 @@ namespace View
     {
         public MainWindow()
         {
+
             InitializeComponent();
+
+            DataContext = new MainViewModel();
            
         }
 

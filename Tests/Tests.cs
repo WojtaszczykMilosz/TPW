@@ -4,23 +4,20 @@ namespace Tests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
+       
 
         [Test]
         public void MainViewModelTest()
         {
 
             MainViewModel vm = new MainViewModel();
-            Assert.That(vm.Height, Is.EqualTo(400));
-            Assert.That(vm.Width, Is.EqualTo(400));
+            Assert.That(vm.Wysokosc, Is.EqualTo(400));
+            Assert.That(vm.Szerokosc, Is.EqualTo(400));
             
             
             vm.IloscKulek = "3";
             Assert.That(vm.IloscKulek, Is.EqualTo("3"));
-            vm.TworzKule(null);
+            vm.TworzKule();
             Assert.AreEqual(vm.Kule.Count, Convert.ToInt32(vm.IloscKulek));
           
             Assert.Pass();
@@ -29,17 +26,14 @@ namespace Tests
         [Test] 
         public void KulaTest() {
             Kula kula = new Kula();
-            kula.Promien = 20;
+            kula.Srednica = 20;
             kula.X = 1;
             kula.Y = 2;
-            kula.Vx = 3;
-            kula.Vy = 4;
+
 
             Assert.That(kula.X, Is.EqualTo(1));
             Assert.That(kula.Y, Is.EqualTo(2));
-            Assert.That(kula.Vx, Is.EqualTo(3));
-            Assert.That(kula.Vy, Is.EqualTo(4));
-            Assert.That(kula.Promien, Is.EqualTo(20));
+            Assert.That(kula.Srednica, Is.EqualTo(20));
             
 
 
@@ -51,10 +45,28 @@ namespace Tests
         public void PudelkoTest()
         {
             Pudelko p = new Pudelko(40,40);
-            Assert.That(p.Height, Is.EqualTo(40));
-            Assert.That(p.Width, Is.EqualTo(40));
+            Assert.That(p.Wysokosc, Is.EqualTo(40));
+            Assert.That(p.Szereokosc, Is.EqualTo(40));
 
             Assert.Pass();
+        }
+
+        [Test]
+        public void SprawdzNachodzenieTest()
+        {
+            MainViewModel vm = new MainViewModel();
+            Kula kula = new Kula();
+            kula.Srednica = 20;
+            kula.X = 1;
+            kula.Y = 1;
+            vm.Kule.Add(kula);
+            Assert.False(vm.SprawdzKoordynaty(1, 1, 20));
+            Assert.True(vm.SprawdzKoordynaty(50, 50, 20));
+            Assert.True(vm.SprawdzKoordynaty(20, 50, 20));
+            Assert.True(vm.SprawdzKoordynaty(50, 20, 20));
+            Assert.False(vm.SprawdzKoordynaty(21, 21, 20));
+            Assert.True(vm.SprawdzKoordynaty(22, 22, 20));
+
         }
     }
 }

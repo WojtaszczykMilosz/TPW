@@ -1,27 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿
 
 namespace ViewModel
 {
     public class Pudelko
     {
 
+        private int wysokosc;
+        private int szerokosc;
 
-        private int height;
-        private int width;
+        public int Wysokosc { get { return wysokosc; } }
+        public int Szereokosc { get { return szerokosc; } }
 
         public Pudelko(int height, int width)
         {
-            this.height = height;
-            this.width = width;
+            this.wysokosc = height;
+            this.szerokosc = width;
         }
-
-        public int Height { get { return height; } }
-        public int Width { get { return width; } }
-
         
     }
 }

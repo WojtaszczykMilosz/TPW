@@ -1,109 +1,77 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
-using System.Resources;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace ViewModel
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel
     {
 
         private ObservableCollection<Kula> kule = new ObservableCollection<Kula>();
+        public ObservableCollection<Kula> Kule { get { return kule; } set { kule = value; } }
+
 
         private int iloscKulek;
+        public string IloscKulek { get { return Convert.ToString(iloscKulek); } set { iloscKulek = Convert.ToInt32(value); } }
 
         private Pudelko pudlo;
-        
+        public int Wysokosc { get { return pudlo.Wysokosc; } }
+
+        public int Szerokosc { get { return pudlo.Szereokosc; } }
 
         public MainViewModel()
         {
-            Start = new RelayCommand(TworzKule, null);
+            Start = new RelayCommand(TworzKule);
             pudlo = new Pudelko(400,400);
+
         }
 
-        public ICommand Start {
-            get;
-            set; 
-        }     
+        public ICommand Start { get; set; }     
 
-
-
-        public int Height { get {  return pudlo.Height; } }
-
-        public int Width { get { return pudlo.Width; } }    
-
-        public string IloscKulek
-        { 
-            get { return Convert.ToString(iloscKulek); } 
-            set {
-                iloscKulek = Convert.ToInt32(value);
-                OnPropertyChanged("OrbQuantity");
-            } 
-        }
-
-
-        public void TworzKule(object obj)
+        public void TworzKule()
         {
-            Random r = new Random();
+            Random random = new Random();
             kule.Clear();
             for (int i = 0; i < iloscKulek; i++) {
                 Kula kula = new Kula();
-                kula.Promien = 20;
-                kula.X = r.Next(pudlo.Width - kula.Promien);
-                kula.Y = r.Next(pudlo.Height - kula.Promien);
-                kula.Vx = 1;
-                kula.Vy = 1;
+                kula.Srednica = 20;
+                int x = random.Next(pudlo.Szereokosc - kula.Srednica);
+                int y = random.Next(pudlo.Wysokosc - kula.Srednica);
+                while (!SprawdzKoordynaty(x, y, kula.Srednica))
+                {
+                     x = random.Next(pudlo.Szereokosc - kula.Srednica);
+                     y = random.Next(pudlo.Wysokosc - kula.Srednica);
+                }
+                kula.X = x;
+                kula.Y = y;
                 kule.Add(kula);
             }
             
         }
 
-        private readonly object ZamekKulka = new object();
-
-        private void Ruch()
+        public bool SprawdzKoordynaty(int x, int y, int srednica)
         {
-            
-            foreach(Kula kulka in Kule)
+            foreach(var kula in kule)
+            {
+                /*if (((x >= kula.X) && (x <= kula.X + kula.Srednica)) || ((x + promien >= kula.X) && (x + promien <= kula.X + kula.Srednica)))
                 {
-                Thread t = new Thread(() => {
-                    while (true)
+                    if (((y >= kula.Y) && (y <= kula.Y + kula.Srednica)) || ((y + promien >= kula.Y) && (y + promien <= kula.Y + kula.Srednica)))
                     {
-                        lock (ZamekKulka)
-                        {
-                            kulka.przemieszczaj(pudlo);
-                        }
-
-                        Thread.Sleep(5);
+                        return false;
                     }
-                });
-                t.Start();
+                }*/
 
+                if (x + srednica >= kula.X && x <= kula.X + kula.Srednica)
+                {
+                    if (y + srednica >= kula.Y && y <= kula.Y + kula.Srednica)
+                    {
+                        return false;
+                    }
+                }
             }
+
+            return true;
         }
 
-
-
-        public ObservableCollection<Kula> Kule {
-            get { return kule; } 
-            set {
-                if (value.Equals(kule)) { return; }
-                kule = value;
-                OnPropertyChanged("Kule");
-            }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
-        {
-            this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
     }
 }
