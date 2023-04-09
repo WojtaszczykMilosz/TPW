@@ -1,6 +1,6 @@
 ﻿
 
-namespace ViewModel
+namespace Dane
 {
     public class Pudelko
     {
@@ -9,7 +9,7 @@ namespace ViewModel
         private int szerokosc;
 
         public int Wysokosc { get { return wysokosc; } }
-        public int Szereokosc { get { return szerokosc; } }
+        public int Szerokosc { get { return szerokosc; } }
 
         public Pudelko(int height, int width)
         {

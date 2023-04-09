@@ -1,5 +1,5 @@
 ﻿
-namespace ViewModel
+namespace Dane
 {
     public class Kula
     {

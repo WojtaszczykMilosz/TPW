@@ -12,7 +12,6 @@ namespace View
         {
 
             InitializeComponent();
-
             DataContext = new MainViewModel();
            
         }
