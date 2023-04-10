@@ -16,60 +16,97 @@ namespace Logika
 
         private AbstractDataApi dataApi;
 
-        private List<LogikaKuli> logikaKul = new List<LogikaKuli>();
-        public override List<LogikaKuli> LogikaKul { get { return logikaKul;} }
-
-
-        public override string IloscKulek { get { return dataApi.IloscKulek; } set { dataApi.IloscKulek = value; } }
+        private List<Kula> kule= new List<Kula>();
+        public override List<Kula> Kule { get { return kule; } }
 
         public override int Szerokosc { get { return dataApi.Szerokosc; } }
 
         public override int Wysokosc { get { return dataApi.Wysokosc; } }
+
         private readonly object zamek = new object();
 
-        public LogicApi()
+        public LogicApi(AbstractDataApi dataApi = null)
         {
-            dataApi = DataApiFactory.CreateDataApi();
-        }
-
-        public override void ZacznijTworzycKule()
-        {
-            dataApi.ZacznijTworzycKule();
-            TworzLogikeKul();
+            if (dataApi == null)
+                this.dataApi = DataApiFactory.CreateDataApi();
+            else
+                this.dataApi = dataApi;
 
         }
 
-        public override void TworzLogikeKul()
+        
+
+
+        public override void TworzKule(int ileKul)
         {
-            logikaKul.Clear();
-            List<Kula> kule = dataApi.Kule;
-            foreach (var kula in kule)
+            kule.Clear();
+            for (int i = 0; i < ileKul; i++)
             {
-                logikaKul.Add(new LogikaKuli(kula));
+                Kula kula = new Kula();
+                kula.Srednica = 20;
+                GenerujPolozenieKuli(kula);
+                kule.Add(kula);
             }
         }
+
+        private void GenerujPolozenieKuli(Kula kula)
+        {
+            Random random = new Random();
+            int x;
+            int y;
+            do
+            {
+                x = random.Next(Szerokosc - kula.Srednica);
+                y = random.Next(Wysokosc - kula.Srednica);
+            } while (JestKulaNaPozycji(x, y, kula.Srednica));
+            kula.X = x;
+            kula.Y = y;
+        }
+
+        public bool JestKulaNaPozycji(int x, int y, int srednica)
+        {
+
+            foreach (var kula in kule)
+            {
+                if (x + srednica >= kula.X && x <= kula.X + kula.Srednica)
+                {
+                    if (y + srednica >= kula.Y && y <= kula.Y + kula.Srednica)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+
+
+
+        
 
         public override void PrzemieszczajKule()
         {
 
-            foreach (var logikaKuli in logikaKul)
+            foreach (var kula in kule)
             {
                 Thread t = new Thread(() => {
                     while (true)
                     {
                         lock (zamek)
                         {
-                            logikaKuli.Przemieszczaj();
-                            ObslozKolizje(logikaKuli);
+                            kula.Przemieszczaj();
+                            ObslozKolizje(kula);
                         }
                         Thread.Sleep(5);
                     }
                 });
+                t.IsBackground = true;
                 t.Start();
             }
         }
 
-        public void ObslozKolizje(LogikaKuli kula)
+        public void ObslozKolizje(Kula kula)
         {
             if(SprawdzCzyWychodziPozaObszarX(kula))
             {
@@ -83,12 +120,12 @@ namespace Logika
            
         }
 
-        public bool SprawdzCzyWychodziPozaObszarX(LogikaKuli kula)
+        public bool SprawdzCzyWychodziPozaObszarX(Kula kula)
         {
             return kula.X + kula.PredkoscX + kula.Srednica > Szerokosc || kula.X + kula.PredkoscX < 0;
         }
 
-        public bool SprawdzCzyWychodziPozaObszarY(LogikaKuli kula)
+        public bool SprawdzCzyWychodziPozaObszarY(Kula kula)
         {
             return kula.Y + kula.PredkoscY + kula.Srednica > Wysokosc || kula.Y + kula.PredkoscY < 0;
         }

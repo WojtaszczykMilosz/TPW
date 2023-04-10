@@ -15,10 +15,7 @@ namespace Tests
             Assert.That(dataApi.Szerokosc, Is.EqualTo(400));
 
 
-            dataApi.IloscKulek = "3";
-            Assert.That(dataApi.IloscKulek, Is.EqualTo("3"));
-            dataApi.TworzKule();
-            Assert.AreEqual(dataApi.Kule.Count, Convert.ToInt32(dataApi.IloscKulek));
+            
 
             Assert.Pass();
         }
@@ -53,23 +50,6 @@ namespace Tests
             Assert.Pass();
         }
 
-        [Test]
-        public void NachodzenieTest()
-        {
-            DataApi dataApi = new DataApi();
-            Kula kula = new Kula();
-            kula.Srednica = 20;
-            kula.X = 1;
-            kula.Y = 1;
-            dataApi.Kule.Add(kula);
-            Assert.True(dataApi.JestKulaNaPozycji(1, 1, 20));
-            Assert.False(dataApi.JestKulaNaPozycji(50, 50, 20));
-            Assert.False(dataApi.JestKulaNaPozycji(20, 50, 20));
-            Assert.False(dataApi.JestKulaNaPozycji(50, 20, 20));
-            Assert.True(dataApi.JestKulaNaPozycji(21, 21, 20));
-            Assert.False(dataApi.JestKulaNaPozycji(22, 22, 20));
-
-        }
 
 
         

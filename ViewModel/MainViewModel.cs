@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Logika;
 using Model;
+using Dane;
 namespace ViewModel
 {
     public class MainViewModel
@@ -10,7 +11,7 @@ namespace ViewModel
 
         private MainModel model;
 
-        public ObservableCollection<LogikaKuli> Kule { get { return model.Kule; } }
+        public ObservableCollection<Kula> Kule { get { return model.Kule; } }
         public int Szerokosc { get { return model.Szerokosc; } }
         public int Wysokosc { get { return model.Wysokosc; } }
         public string IloscKulek { get { return model.IloscKulek; } set { model.IloscKulek = value; } } 

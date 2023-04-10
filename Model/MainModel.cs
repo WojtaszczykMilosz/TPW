@@ -11,10 +11,16 @@ namespace Model
     {
         private AbstractLogicApi logicApi;
 
-        private ObservableCollection<LogikaKuli> kule = new ObservableCollection<LogikaKuli>();
-        public ObservableCollection<LogikaKuli> Kule { get { return kule; } }
-        public string IloscKulek { get { return logicApi.IloscKulek; } set { logicApi.IloscKulek = value; } }
+        private ObservableCollection<Kula> kule = new ObservableCollection<Kula>();
+        public ObservableCollection<Kula> Kule { get { return kule; } }
+        
 
+        private int iloscKulek;
+        public string IloscKulek
+        {
+            get { return Convert.ToString(iloscKulek); }
+            set { iloscKulek = Convert.ToInt32(value); }
+        }
         public int Szerokosc { get { return logicApi.Szerokosc; } }
         public int Wysokosc { get { return logicApi.Wysokosc; } }
 
@@ -27,7 +33,7 @@ namespace Model
         
         public void WczytajKule()
         {
-            foreach (var logika in logicApi.LogikaKul) { 
+            foreach (var logika in logicApi.Kule) { 
                 kule.Add(logika);
             }
         }
@@ -35,7 +41,7 @@ namespace Model
         public void Start()
         {
             kule.Clear();
-            logicApi.ZacznijTworzycKule();
+            logicApi.TworzKule(iloscKulek);
             WczytajKule();
             logicApi.PrzemieszczajKule();
         }
