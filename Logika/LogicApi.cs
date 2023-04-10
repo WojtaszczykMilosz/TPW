@@ -17,14 +17,14 @@ namespace Logika
         private AbstractDataApi dataApi;
 
         private List<LogikaKuli> logikaKul = new List<LogikaKuli>();
-        public override List<LogikaKuli> LogikaKul { get { return logikaKul; }}
+        public override List<LogikaKuli> LogikaKul { get { return logikaKul;} }
 
 
         public override string IloscKulek { get { return dataApi.IloscKulek; } set { dataApi.IloscKulek = value; } }
 
-        public override int GranicaX { get { return dataApi.GranicaX; } }
+        public override int Szerokosc { get { return dataApi.Szerokosc; } }
 
-        public override int GranicaY { get { return dataApi.GranicaY; } }
+        public override int Wysokosc { get { return dataApi.Wysokosc; } }
         private readonly object zamek = new object();
 
         public LogicApi()
@@ -32,8 +32,13 @@ namespace Logika
             dataApi = DataApiFactory.CreateDataApi();
         }
 
-        
-        
+        public override void ZacznijTworzycKule()
+        {
+            dataApi.ZacznijTworzycKule();
+            TworzLogikeKul();
+
+        }
+
         public override void TworzLogikeKul()
         {
             logikaKul.Clear();
@@ -55,7 +60,7 @@ namespace Logika
                         lock (zamek)
                         {
                             logikaKuli.przemieszczaj();
-                            Kolizje(logikaKuli);
+                            ObslozKolizje(logikaKuli);
                         }
                         Thread.Sleep(5);
                     }
@@ -64,36 +69,31 @@ namespace Logika
             }
         }
 
-        public void Kolizje(LogikaKuli logika)
+        public void ObslozKolizje(LogikaKuli logika)
         {
-            if(KulaWychodziPozaObszarX(logika))
+            if(SprawdzCzyWychodziPozaObszarX(logika))
             {
                 logika.PredkoscX = -logika.PredkoscX;
             } 
           
-            if (KulaWychodziPozaObszarY(logika))
+            if (SprawdzCzyWychodziPozaObszarY(logika))
             {
                 logika.PredkoscY = -logika.PredkoscY;
             }
            
         }
 
-        private bool KulaWychodziPozaObszarX(LogikaKuli kula)
+        private bool SprawdzCzyWychodziPozaObszarX(LogikaKuli kula)
         {
-            return kula.X + kula.PredkoscX + kula.Srednica >= GranicaX || kula.X + kula.PredkoscX <= 0;
+            return kula.X + kula.PredkoscX + kula.Srednica >= Szerokosc || kula.X + kula.PredkoscX <= 0;
         }
 
-        private bool KulaWychodziPozaObszarY(LogikaKuli kula)
+        private bool SprawdzCzyWychodziPozaObszarY(LogikaKuli kula)
         {
-            return kula.Y + kula.PredkoscY + kula.Srednica >= GranicaY || kula.Y + kula.PredkoscY <= 0;
+            return kula.Y + kula.PredkoscY + kula.Srednica >= Wysokosc || kula.Y + kula.PredkoscY <= 0;
         }
 
-        public override void ZacznijTworzycKule()
-        {
-            dataApi.ZacznijTworzycKule();
-            TworzLogikeKul();
-           
-        }
+        
 
         
 

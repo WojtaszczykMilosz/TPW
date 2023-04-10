@@ -5,10 +5,6 @@ namespace Dane
     {
         public Kula() { }
 
-        private int srednica;
-
-        public int Srednica { get { return srednica; } set { srednica = value; } }
-
         private int x;
 
         public int X { get { return x; } set {x = value; } }
@@ -17,6 +13,9 @@ namespace Dane
 
         public int Y { get { return y; } set { y = value; } }
 
+        private int srednica;
+
+        public int Srednica { get { return srednica; } set { srednica = value; } }
     }
 }
 

@@ -15,8 +15,8 @@ namespace Model
         public ObservableCollection<LogikaKuli> Kule { get { return kule; } }
         public string IloscKulek { get { return logicApi.IloscKulek; } set { logicApi.IloscKulek = value; } }
 
-        public int X { get { return logicApi.GranicaX; } }
-        public int Y { get { return logicApi.GranicaY; } }
+        public int Szerokosc { get { return logicApi.Szerokosc; } }
+        public int Wysokosc { get { return logicApi.Wysokosc; } }
 
 
         public MainModel() { 

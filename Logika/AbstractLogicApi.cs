@@ -12,8 +12,8 @@ namespace Logika
         public abstract void TworzLogikeKul();
         public abstract void PrzemieszczajKule();
         public abstract void ZacznijTworzycKule();
-        public abstract int GranicaX { get; }
-        public abstract int GranicaY { get; }
+        public abstract int Szerokosc { get; }
+        public abstract int Wysokosc { get; }
 
     }
 }

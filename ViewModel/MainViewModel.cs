@@ -11,8 +11,8 @@ namespace ViewModel
         private MainModel model;
 
         public ObservableCollection<LogikaKuli> Kule { get { return model.Kule; } }
-        public int Szerokosc { get { return model.X; } }
-        public int Wysokosc { get { return model.Y; } }
+        public int Szerokosc { get { return model.Szerokosc; } }
+        public int Wysokosc { get { return model.Wysokosc; } }
         public string IloscKulek { get { return model.IloscKulek; } set { model.IloscKulek = value; } } 
         public ICommand Start { get; set; }
 

@@ -16,9 +16,9 @@ namespace Dane
         private int iloscKulek;
         public override string IloscKulek { get { return Convert.ToString(iloscKulek); } set { iloscKulek = Convert.ToInt32(value); } }
 
-        public override int GranicaX { get { return pudlo.Szerokosc; } }
+        public override int Szerokosc { get { return pudlo.Szerokosc; } }
 
-        public override int GranicaY { get { return pudlo.Wysokosc; } }
+        public override int Wysokosc { get { return pudlo.Wysokosc; } }
 
         public DataApi(){
             pudlo = new Pudelko(400, 400);
@@ -48,12 +48,12 @@ namespace Dane
             {
                 x = random.Next(pudlo.Szerokosc - kula.Srednica);
                 y = random.Next(pudlo.Wysokosc - kula.Srednica);
-            } while (!SprawdzKoordynaty(x, y, kula.Srednica));
+            } while (JestKulaNaPozycji(x, y, kula.Srednica));
             kula.X = x;
             kula.Y = y;
         }
 
-        private bool SprawdzKoordynaty(int x, int y, int srednica)
+        private bool JestKulaNaPozycji(int x, int y, int srednica)
         {
            
             foreach (var kula in kule)
@@ -62,12 +62,12 @@ namespace Dane
                 {
                     if (y + srednica >= kula.Y && y <= kula.Y + kula.Srednica)
                     {
-                        return false;
+                        return true;
                     }
                 }
             }
 
-            return true;
+            return false;
         }
 
        
