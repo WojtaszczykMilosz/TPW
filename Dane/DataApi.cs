@@ -14,7 +14,9 @@ namespace Dane
         
 
         private int iloscKulek;
-        public override string IloscKulek { get { return Convert.ToString(iloscKulek); } set { iloscKulek = Convert.ToInt32(value); } }
+        public override string IloscKulek { 
+            get { return Convert.ToString(iloscKulek); } 
+            set { iloscKulek = Convert.ToInt32(value); } }
 
         public override int Szerokosc { get { return pudlo.Szerokosc; } }
 
@@ -53,7 +55,7 @@ namespace Dane
             kula.Y = y;
         }
 
-        private bool JestKulaNaPozycji(int x, int y, int srednica)
+        public bool JestKulaNaPozycji(int x, int y, int srednica)
         {
            
             foreach (var kula in kule)

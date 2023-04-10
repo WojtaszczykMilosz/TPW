@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace Logika
@@ -26,6 +27,7 @@ namespace Logika
         
 
         private int predkosc = 2;
+        public int Predkosc { get { return predkosc; } }
 
         public LogikaKuli(Kula kula) {
             this.kula = kula;
@@ -34,7 +36,7 @@ namespace Logika
         }
 
 
-        public void przemieszczaj() {
+        public void Przemieszczaj() {
             kula.X += predkoscX;
             kula.Y += predkoscY;
             OnPropertyChanged("X");

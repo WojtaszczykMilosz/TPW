@@ -59,7 +59,7 @@ namespace Logika
                     {
                         lock (zamek)
                         {
-                            logikaKuli.przemieszczaj();
+                            logikaKuli.Przemieszczaj();
                             ObslozKolizje(logikaKuli);
                         }
                         Thread.Sleep(5);
@@ -69,28 +69,28 @@ namespace Logika
             }
         }
 
-        public void ObslozKolizje(LogikaKuli logika)
+        public void ObslozKolizje(LogikaKuli kula)
         {
-            if(SprawdzCzyWychodziPozaObszarX(logika))
+            if(SprawdzCzyWychodziPozaObszarX(kula))
             {
-                logika.PredkoscX = -logika.PredkoscX;
+                kula.PredkoscX = -kula.PredkoscX;
             } 
           
-            if (SprawdzCzyWychodziPozaObszarY(logika))
+            if (SprawdzCzyWychodziPozaObszarY(kula))
             {
-                logika.PredkoscY = -logika.PredkoscY;
+                kula.PredkoscY = -kula.PredkoscY;
             }
            
         }
 
-        private bool SprawdzCzyWychodziPozaObszarX(LogikaKuli kula)
+        public bool SprawdzCzyWychodziPozaObszarX(LogikaKuli kula)
         {
-            return kula.X + kula.PredkoscX + kula.Srednica >= Szerokosc || kula.X + kula.PredkoscX <= 0;
+            return kula.X + kula.PredkoscX + kula.Srednica > Szerokosc || kula.X + kula.PredkoscX < 0;
         }
 
-        private bool SprawdzCzyWychodziPozaObszarY(LogikaKuli kula)
+        public bool SprawdzCzyWychodziPozaObszarY(LogikaKuli kula)
         {
-            return kula.Y + kula.PredkoscY + kula.Srednica >= Wysokosc || kula.Y + kula.PredkoscY <= 0;
+            return kula.Y + kula.PredkoscY + kula.Srednica > Wysokosc || kula.Y + kula.PredkoscY < 0;
         }
 
         
