@@ -12,7 +12,9 @@
         <Grid.DataContext>
             <ViewModel:MainViewModel/>
         </Grid.DataContext>
-        <Button Content="START" HorizontalAlignment="Left" Margin="45,80,0,0" Command="{Binding Start}" VerticalAlignment="Top" Height="20" Width="80"/>
+        <Button Content="STWORZ KULE" HorizontalAlignment="Left" Margin="45,80,0,0" Command="{Binding StworzKule}" VerticalAlignment="Top" Height="20" Width="80"/>
+        <Button Content="START" HorizontalAlignment="Left" Margin="45,127,0,0" Command="{Binding Start}" VerticalAlignment="Top" Height="20" Width="80"/>
+        <Button Content="STOP" HorizontalAlignment="Left" Margin="45,177,0,0" Command="{Binding Stop}" VerticalAlignment="Top" Height="20" Width="80"/>
         <TextBox HorizontalAlignment="Left" Margin="55,50,0,0" TextWrapping="Wrap" Text="{Binding IloscKulek}" VerticalAlignment="Top" Width="60"/>
         <Label Content="Ilosc kulek&#xD;&#xA;" HorizontalAlignment="Left" Margin="53,19,0,0" VerticalAlignment="Top" Height="26"/>
         
