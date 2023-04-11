@@ -91,7 +91,7 @@ namespace Logika
             kula.X = x;
             kula.Y = y;
         }
-        public bool JestKulaNaPozycji(int x, int y, int srednica)
+        public override bool JestKulaNaPozycji(int x, int y, int srednica)
         {
 
             foreach (var kula in kule)
@@ -169,7 +169,7 @@ namespace Logika
             }
         }
 
-        public void ObslozKolizje(Kula kula)
+        public override void ObslozKolizje(Kula kula)
         {
             if (SprawdzCzyWychodziPozaObszarX(kula))
             {
@@ -183,12 +183,12 @@ namespace Logika
 
         }
 
-        public bool SprawdzCzyWychodziPozaObszarX(Kula kula)
+        public override bool SprawdzCzyWychodziPozaObszarX(Kula kula)
         {
             return kula.X + kula.PredkoscX + kula.Srednica > Szerokosc || kula.X + kula.PredkoscX < 0;
         }
 
-        public bool SprawdzCzyWychodziPozaObszarY(Kula kula)
+        public override bool SprawdzCzyWychodziPozaObszarY(Kula kula)
         {
             return kula.Y + kula.PredkoscY + kula.Srednica > Wysokosc || kula.Y + kula.PredkoscY < 0;
         }

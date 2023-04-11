@@ -25,7 +25,7 @@ namespace Testy
         {
 
 
-            LogicApi logicApi = new LogicApi();
+            AbstractLogicApi logicApi = new LogicApi();
             logicApi.TworzKule(3);
             Assert.AreEqual(logicApi.Kule.Count, 3);
             Assert.Pass();
@@ -35,7 +35,7 @@ namespace Testy
         [Test]
         public void NachodzenieTest()
         {
-            LogicApi logicApi = new LogicApi();
+            AbstractLogicApi logicApi = new LogicApi();
             Kula kula = new Kula();
             kula.Srednica = 20;
             kula.X = 1;
@@ -58,7 +58,7 @@ namespace Testy
             kula.X = 1;
             kula.Y = 1; 
             kula.Srednica = 20;
-            LogicApi logicApi = new LogicApi();
+            AbstractLogicApi logicApi = new LogicApi();
             
             logicApi.Kule.Add(kula);
             Assert.False(logicApi.SprawdzCzyWychodziPozaObszarX(kula));
@@ -101,7 +101,7 @@ namespace Testy
         public void GenerowaniePredkosciTest()
         {
             
-            LogicApi kulaApi = new LogicApi();
+            AbstractLogicApi kulaApi = new LogicApi();
             kulaApi.TworzKule(8);
             foreach(var kula in kulaApi.Kule)
             {
