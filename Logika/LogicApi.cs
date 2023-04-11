@@ -70,6 +70,14 @@ namespace Logika
             dataApi.PrzepiszKule(kule);
 
         }
+
+        public override void AnulujToken()
+        {
+            tworcaTokenow?.Cancel();
+
+            ruchKul = false;
+        }
+
         private void GenerujPolozenieKuli(Kula kula)
         {
             Random random = new Random();
@@ -83,29 +91,6 @@ namespace Logika
             kula.X = x;
             kula.Y = y;
         }
-
-        private void GenerujPredkoscKuli(Kula kula)
-        {
-            Random random = new Random();
-            int r;
-            do
-            {
-                r = random.Next(9) - 4;
-
-            } while (r == 0);
-            
-            kula.PredkoscY = r;
-
-            do
-            {
-                r = random.Next(9) - 4;
-
-            } while (r == 0);
-
-            kula.PredkoscX = r;
-
-        }
-
         public bool JestKulaNaPozycji(int x, int y, int srednica)
         {
 
@@ -123,24 +108,24 @@ namespace Logika
             return false;
         }
 
-        private void CiaglyRuchKuli(Kula kula, CancellationToken token)
+        private void GenerujPredkoscKuli(Kula kula)
         {
-            while (true)
+            
+
+            kula.PredkoscY = LosujPredkosc();
+            kula.PredkoscX = LosujPredkosc();
+
+        }
+
+        private int LosujPredkosc() {
+            Random random = new Random();
+            int r;
+            do
             {
-                 //Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
-                lock (zamek)
-                {
-                   // Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
-                    if (token.IsCancellationRequested)
-                    {
-                        // Debug.WriteLine(Thread.CurrentThread.Name + " zakończyła ruch.");
-                        return;
-                    }
-                    kula.Przemieszczaj();
-                    ObslozKolizje(kula);
-                }
-                Thread.Sleep(10);
-            }
+                r = random.Next(9) - 4;
+
+            } while (r == 0);
+            return r;
         }
 
         public override void PrzemieszczajKule()
@@ -163,6 +148,64 @@ namespace Logika
             }
 
         }
+
+        private void CiaglyRuchKuli(Kula kula, CancellationToken token)
+        {
+            while (true)
+            {
+                 //Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
+                lock (zamek)
+                {
+                   // Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
+                    if (token.IsCancellationRequested)
+                    {
+                        // Debug.WriteLine(Thread.CurrentThread.Name + " zakończyła ruch.");
+                        return;
+                    }
+                    kula.Przemieszczaj();
+                    ObslozKolizje(kula);
+                }
+                Thread.Sleep(10);
+            }
+        }
+
+        public void ObslozKolizje(Kula kula)
+        {
+            if (SprawdzCzyWychodziPozaObszarX(kula))
+            {
+                kula.PredkoscX = -kula.PredkoscX;
+            }
+
+            if (SprawdzCzyWychodziPozaObszarY(kula))
+            {
+                kula.PredkoscY = -kula.PredkoscY;
+            }
+
+        }
+
+        public bool SprawdzCzyWychodziPozaObszarX(Kula kula)
+        {
+            return kula.X + kula.PredkoscX + kula.Srednica > Szerokosc || kula.X + kula.PredkoscX < 0;
+        }
+
+        public bool SprawdzCzyWychodziPozaObszarY(Kula kula)
+        {
+            return kula.Y + kula.PredkoscY + kula.Srednica > Wysokosc || kula.Y + kula.PredkoscY < 0;
+        }
+
+        public override void RozpocznijInformatora(int czas)
+        {
+            if (ruchKul && kule.Count != 0 && tworcaTokenow != null)
+            {
+                var token = tworcaTokenow.Token;
+                Thread thread = new Thread(() => InformatorStart(czas, token));
+                thread.Name = "INFORMATOR";
+                thread.IsBackground = true;
+                thread.Start();
+                informator = thread;
+            }
+        }
+
         private void InformatorStart(int czas,CancellationToken token)
         {
             while (true)
@@ -182,48 +225,11 @@ namespace Logika
                 Thread.Sleep(czas);
             }
         }
-        public override void RozpocznijInformatora(int czas)
-        {
-            if (ruchKul && kule.Count != 0 && tworcaTokenow != null)
-            {
-                var token = tworcaTokenow.Token;
-                Thread thread = new Thread(() => InformatorStart(czas,token));
-                thread.Name = "INFORMATOR";
-                thread.IsBackground = true;
-                thread.Start();
-                informator = thread;
-            }
-        }
+       
 
-        public override void AnulujToken()
-        {
-            tworcaTokenow?.Cancel();
-            ruchKul = false;
-        }
+       
 
-        public void ObslozKolizje(Kula kula)
-        {
-            if(SprawdzCzyWychodziPozaObszarX(kula))
-            {
-                kula.PredkoscX = -kula.PredkoscX;
-            } 
-          
-            if (SprawdzCzyWychodziPozaObszarY(kula))
-            {
-                kula.PredkoscY = -kula.PredkoscY;
-            }
-           
-        }
-
-        public bool SprawdzCzyWychodziPozaObszarX(Kula kula)
-        {
-            return kula.X + kula.PredkoscX + kula.Srednica > Szerokosc || kula.X + kula.PredkoscX < 0;
-        }
-
-        public bool SprawdzCzyWychodziPozaObszarY(Kula kula)
-        {
-            return kula.Y + kula.PredkoscY + kula.Srednica > Wysokosc || kula.Y + kula.PredkoscY < 0;
-        }
+       
 
     }
 }
