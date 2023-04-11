@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Dane
+﻿namespace Dane
 {
     public class DataApiFactory
     {

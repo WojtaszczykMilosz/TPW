@@ -50,7 +50,7 @@ namespace Model
         public void Start()
         {
             logicApi.PrzemieszczajKule();
-            logicApi.RozpocznijInformatora();
+            logicApi.RozpocznijInformatora(2000);
         }
         public void StworzKule()
         {
@@ -61,7 +61,7 @@ namespace Model
         }
         public void Stop()
         {
-            logicApi.Cancel();
+            logicApi.AnulujToken();
         }
     }
 }

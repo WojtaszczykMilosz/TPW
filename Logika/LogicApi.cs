@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Threading;
 using Dane;
 
@@ -9,12 +8,17 @@ namespace Logika
     public class LogicApi : AbstractLogicApi
     {
 
-        private CancellationTokenSource TworcaTokenow = null;
+        private CancellationTokenSource tworcaTokenow = null;
         private bool ruchKul = false;
+        public bool RuchKul
+        {
+            get { return ruchKul; } 
+        }
 
         private readonly AbstractDataApi dataApi;
 
         private List<Kula> kule= new List<Kula>();
+
         public override List<Kula> Kule 
         { 
             get { return kule; }
@@ -37,12 +41,23 @@ namespace Logika
             dataApi = DataApiFactory.CreateDataApi();
         }
 
-        
+        private List<Thread> watkiKul = new List<Thread>();
+
+        public List<Thread> WatkiKul
+        {
+            get { return watkiKul; }
+        }
+
+        private Thread informator = null;
+        public Thread Informator
+        {
+            get { return informator; }
+        }
 
 
         public override void TworzKule(int ileKul)
         {
-            Cancel();
+            AnulujToken();
             kule.Clear();
             for (int i = 0; i < ileKul; i++)
             {
@@ -75,7 +90,7 @@ namespace Logika
             int r;
             do
             {
-                r = random.Next(9) - 2;
+                r = random.Next(9) - 4;
 
             } while (r == 0);
             
@@ -83,7 +98,7 @@ namespace Logika
 
             do
             {
-                r = random.Next(9) - 2;
+                r = random.Next(9) - 4;
 
             } while (r == 0);
 
@@ -112,13 +127,13 @@ namespace Logika
         {
             while (true)
             {
-                Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
+                 //Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
                 lock (zamek)
                 {
-                    Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
+                   // Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
                     if (token.IsCancellationRequested)
                     {
-                        Debug.WriteLine(Thread.CurrentThread.Name + " zakończyła ruch.");
+                        // Debug.WriteLine(Thread.CurrentThread.Name + " zakończyła ruch.");
                         return;
                     }
                     kula.Przemieszczaj();
@@ -130,11 +145,11 @@ namespace Logika
 
         public override void PrzemieszczajKule()
         {
-            if (!ruchKul && kule.Count != 0) 
+            if (!ruchKul && kule.Count != 0)
             {
                 ruchKul = true;
-                TworcaTokenow = new CancellationTokenSource();
-                var token = TworcaTokenow.Token;
+                tworcaTokenow = new CancellationTokenSource();
+                var token = tworcaTokenow.Token;
                 int i = 1;
                 foreach (var kula in kule)
                 {
@@ -143,44 +158,46 @@ namespace Logika
                     thread.IsBackground = true;
                     thread.Start();
                     i++;
+                    watkiKul.Add(thread);
                 }
             }
-           
+
         }
-        private void Informator(CancellationToken token)
+        private void InformatorStart(int czas,CancellationToken token)
         {
             while (true)
             {
-                Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
+                //Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
                 lock (zamek)
                 {
-                    Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
+                    //Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
                     if (token.IsCancellationRequested)
                     {
-                        Debug.WriteLine(Thread.CurrentThread.Name + " zakończył pracę.");
+                        //Debug.WriteLine(Thread.CurrentThread.Name + " zakończył pracę.");
                         return;
                     }
                     dataApi.ZaktualizujKule(kule);
                 }
-                dataApi.WypiszKule();
-                Thread.Sleep(2000);
+                //dataApi.WypiszKule();
+                Thread.Sleep(czas);
             }
         }
-        public override void RozpocznijInformatora()
+        public override void RozpocznijInformatora(int czas)
         {
-            if (ruchKul && kule.Count != 0)
+            if (ruchKul && kule.Count != 0 && tworcaTokenow != null)
             {
-                var token = TworcaTokenow.Token;
-                Thread thread = new Thread(() => Informator(token));
+                var token = tworcaTokenow.Token;
+                Thread thread = new Thread(() => InformatorStart(czas,token));
                 thread.Name = "INFORMATOR";
                 thread.IsBackground = true;
                 thread.Start();
+                informator = thread;
             }
         }
 
-        public override void Cancel()
+        public override void AnulujToken()
         {
-            TworcaTokenow?.Cancel();
+            tworcaTokenow?.Cancel();
             ruchKul = false;
         }
 

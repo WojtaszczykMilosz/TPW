@@ -96,5 +96,65 @@ namespace Testy
             
             Assert.Pass();
         }
+
+        [Test]
+        public void GenerowaniePredkosciTest()
+        {
+            
+            LogicApi kulaApi = new LogicApi();
+            kulaApi.TworzKule(8);
+            foreach(var kula in kulaApi.Kule)
+            {
+                Assert.That(kula.PredkoscY, Is.Not.EqualTo(0));
+                Assert.That(kula.PredkoscX, Is.Not.EqualTo(0));
+                Assert.That(kula.PredkoscY, Is.LessThan(5));
+                Assert.That(kula.PredkoscX, Is.LessThan(5));
+                Assert.That(kula.PredkoscY, Is.GreaterThan(-5));
+                Assert.That(kula.PredkoscX, Is.GreaterThan(-5));
+            }
+        }
+
+        [Test]
+        public void PrzemieszczanieKulOrazCancelTest()
+        {
+            LogicApi kulaApi = new LogicApi();
+            kulaApi.PrzemieszczajKule();
+            Assert.That(kulaApi.WatkiKul.Count,Is.EqualTo(0));
+            kulaApi.TworzKule(3);
+            Assert.That(kulaApi.RuchKul, Is.False);
+            kulaApi.PrzemieszczajKule();
+            Assert.That(kulaApi.WatkiKul.Count, Is.EqualTo(3));
+            foreach (var watek in kulaApi.WatkiKul)
+            {
+                Assert.That(watek.IsAlive, Is.True);
+            }
+            Assert.That(kulaApi.RuchKul, Is.True);
+            kulaApi.AnulujToken();
+            Thread.Sleep(1000);
+            Assert.That(kulaApi.RuchKul, Is.False);
+            foreach(var watek in kulaApi.WatkiKul)
+            {
+                Assert.That(watek.IsAlive, Is.False);
+            }
+
+        }
+
+        [Test]
+        public void InformatorTest()
+        {
+            var kulaApi = new LogicApi();
+            kulaApi.PrzemieszczajKule();
+            kulaApi.RozpocznijInformatora(1);
+            Assert.That(kulaApi.Informator, Is.Null);
+            kulaApi.TworzKule(3);
+            kulaApi.RozpocznijInformatora(1);
+            Assert.That(kulaApi.Informator, Is.Null);
+            kulaApi.PrzemieszczajKule();
+            kulaApi.RozpocznijInformatora(2);
+            Assert.That(kulaApi.Informator.IsAlive,Is.True);
+            kulaApi.AnulujToken();
+            Thread.Sleep(5);
+            Assert.That(kulaApi.Informator.IsAlive, Is.False);
+        }
     }
 }
