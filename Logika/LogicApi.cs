@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using System.Threading;
 using Dane;
 
@@ -128,6 +129,12 @@ namespace Logika
             return r;
         }
 
+        public void GenerujMaseKuli(Kula kula)
+        {
+            Random random = new Random();
+            kula.Masa = random.Next(20) + 5;
+        }
+
         public override void PrzemieszczajKule()
         {
             if (!ruchKul && kule.Count != 0)
@@ -171,6 +178,12 @@ namespace Logika
 
         public override void ObslozKolizje(Kula kula)
         {
+            ObslozKolizjeZeSciania(kula);
+            ObslozKolizjeZInnaKula(kula);
+        }
+        
+        public override void ObslozKolizjeZeSciania(Kula kula)
+        {
             if (SprawdzCzyWychodziPozaObszarX(kula))
             {
                 kula.PredkoscX = -kula.PredkoscX;
@@ -180,7 +193,6 @@ namespace Logika
             {
                 kula.PredkoscY = -kula.PredkoscY;
             }
-
         }
 
         public override bool SprawdzCzyWychodziPozaObszarX(Kula kula)
@@ -192,6 +204,73 @@ namespace Logika
         {
             return kula.Y + kula.PredkoscY + kula.Srednica > Wysokosc || kula.Y + kula.PredkoscY < 0;
         }
+
+
+        public void ObslozKolizjeZInnaKula(Kula kula)
+        {
+            foreach (var innaKula in kule)
+            {
+                if (SprawdzKolizjeKuli(kula, innaKula))
+                {
+                    OdbijKule(kula, innaKula);
+                }
+            }
+        }
+
+        public bool SprawdzKolizjeKuli(Kula kula, Kula innaKula)
+        {
+            if (kula == innaKula) return false;
+            if (SprawdzCzyNachodziNaKule(kula,innaKula))
+                return true;
+            return false;
+        }
+
+        public bool SprawdzCzyNachodziNaKule(Kula kulaNachodzaca, Kula innaKula)
+        {
+            return SprawdziCzyNachodziNaKuleX(kulaNachodzaca, innaKula) && SprawdziCzyNachodziNaKuleY(kulaNachodzaca, innaKula);
+        }
+        public bool SprawdziCzyNachodziNaKuleX(Kula kulaNachodzaca, Kula innaKula)
+        {
+            bool warunek1 = kulaNachodzaca.X + kulaNachodzaca.PredkoscX < innaKula.X + innaKula.PredkoscX + innaKula.Srednica;
+            bool warunek2 = kulaNachodzaca.X + kulaNachodzaca.PredkoscX + kulaNachodzaca.Srednica > innaKula.X + innaKula.PredkoscX;
+            return warunek1 && warunek2;
+        }
+
+
+        public bool SprawdziCzyNachodziNaKuleY(Kula kulaNachodzaca, Kula innaKula)
+        {
+            bool warunek1 = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY < innaKula.Y + innaKula.PredkoscY + innaKula.Srednica;
+            bool warunek2 = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY + kulaNachodzaca.Srednica > innaKula.Y + innaKula.PredkoscY;
+            return warunek1 && warunek2;
+        }
+
+        public void OdbijKule(Kula kulaNachodzaca, Kula innaKula)
+        {
+            double nowaPredkoscX;
+            double nowaPredkoscY;
+            double nowaPredkoscXinnejKuli;
+            double nowaPredkoscYinnejKuli;
+
+            nowaPredkoscX = ((kulaNachodzaca.Masa - innaKula.Masa) * kulaNachodzaca.PredkoscX +
+                (2 * innaKula.Masa * innaKula.PredkoscX)) / (kulaNachodzaca.Masa + innaKula.Masa);
+            nowaPredkoscXinnejKuli = ((innaKula.Masa - kulaNachodzaca.Masa) * innaKula.PredkoscX +
+               (2 * kulaNachodzaca.Masa * kulaNachodzaca.PredkoscX)) / (kulaNachodzaca.Masa + innaKula.Masa);
+
+            kulaNachodzaca.PredkoscX = nowaPredkoscX;
+            innaKula.PredkoscX = nowaPredkoscXinnejKuli;
+
+            nowaPredkoscY = ((kulaNachodzaca.Masa - innaKula.Masa) * kulaNachodzaca.PredkoscY +
+                (2 * innaKula.Masa * innaKula.PredkoscY)) / (kulaNachodzaca.Masa + innaKula.Masa);
+            nowaPredkoscYinnejKuli = ((innaKula.Masa - kulaNachodzaca.Masa) * innaKula.PredkoscY +
+                (2 * kulaNachodzaca.Masa * kulaNachodzaca.PredkoscY)) / (kulaNachodzaca.Masa + innaKula.Masa);
+
+       
+            
+            kulaNachodzaca.PredkoscY = nowaPredkoscY;
+            innaKula.PredkoscY = nowaPredkoscYinnejKuli;
+        }
+
+        
 
         public override void RozpocznijInformatora(int czas)
         {

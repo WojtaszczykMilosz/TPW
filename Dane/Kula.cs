@@ -1,15 +1,18 @@
-﻿namespace Dane
+﻿using System;
+
+namespace Dane
 {
     public class Kula : NotifiedObject
     {
         public Kula() {
-            predkoscX = predkosc;
-            predkoscY = predkosc;
+            Random rand = new Random();
+            masa = rand.Next(40)+1;
+
         }
 
-        private int x;
+        private double x;
 
-        public int X 
+        public double X 
         {
             get { return x; } 
             set 
@@ -19,9 +22,9 @@
             } 
         }
 
-        private int y;
+        private double y;
 
-        public int Y 
+        public double Y 
         { 
             get { return y; }
             set 
@@ -39,25 +42,28 @@
             set { srednica = value; } 
         }
 
-        private int predkoscX;
-        public int PredkoscX
+        private double predkoscX;
+        public double PredkoscX
         { 
             get { return predkoscX; } 
             set { predkoscX = value; }
         }
 
-        private int predkoscY;
-        public int PredkoscY 
+        private double predkoscY;
+        public double PredkoscY 
         {
             get { return predkoscY; }
             set { predkoscY = value; }
         }
 
-        private int predkosc = 2;
-        public int Predkosc 
+        private int masa;
+        public int Masa
         {
-            get { return predkosc; }
+            get { return masa; }
+            set { masa = value; }
         }
+
+       
 
         public void Przemieszczaj()
         {

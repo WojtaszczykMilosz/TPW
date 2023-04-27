@@ -4,6 +4,8 @@ using System.Windows.Input;
 using Logika;
 using Model;
 using Dane;
+using System.Windows.Media;
+
 namespace ViewModel
 {
     public class MainViewModel
@@ -31,6 +33,14 @@ namespace ViewModel
         public ICommand Start { get; set; }
         public ICommand Stop { get; set; }
         public ICommand StworzKule { get; set; }
+
+        //public object Color(double masa)
+        //{
+        //    double hue = masa * 240 / 40;
+        //    Color color = ;
+        //    color = color.FromHsb(hue, 100, 100);
+        //    return new SolidColorBrush();
+        //}
 
         public MainViewModel()
         {

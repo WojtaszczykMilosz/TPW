@@ -8,11 +8,10 @@ namespace Testy
             Kula kula = new Kula();
             kula.X = 1;
             kula.Y = 1;
+            kula.PredkoscX = 1;
+            kula.PredkoscY = 1;
 
-
-
-            Assert.AreEqual(kula.PredkoscX, kula.Predkosc);
-            Assert.AreEqual(kula.PredkoscY, kula.Predkosc);
+            
             kula.Przemieszczaj();
             Assert.AreEqual(kula.X, 1 + kula.PredkoscX);
             Assert.AreEqual(kula.X, 1 + kula.PredkoscY);
@@ -33,7 +32,7 @@ namespace Testy
 
 
         [Test]
-        public void NachodzenieTest()
+        public void SprawdzPozycjeTest()
         {
             AbstractLogicApi logicApi = new LogicApi();
             Kula kula = new Kula();
@@ -47,6 +46,9 @@ namespace Testy
             Assert.False(logicApi.JestKulaNaPozycji(50, 20, 20));
             Assert.True(logicApi.JestKulaNaPozycji(21, 21, 20));
             Assert.False(logicApi.JestKulaNaPozycji(22, 22, 20));
+
+
+
 
         }
 
@@ -62,9 +64,8 @@ namespace Testy
             
             logicApi.Kule.Add(kula);
             Assert.False(logicApi.SprawdzCzyWychodziPozaObszarX(kula));
-            logicApi.ObslozKolizje(kula);
-            Assert.That(kula.PredkoscX, Is.EqualTo(kula.Predkosc));
-            Assert.That(kula.PredkoscY, Is.EqualTo(kula.Predkosc));
+            logicApi.ObslozKolizjeZeSciania(kula);
+            
 
             kula.X = 381;
             Assert.True(logicApi.SprawdzCzyWychodziPozaObszarX(kula));
@@ -76,9 +77,12 @@ namespace Testy
             kula.Y = -1 - kula.PredkoscY;
             Assert.True(logicApi.SprawdzCzyWychodziPozaObszarY(kula));
 
-            logicApi.ObslozKolizje(kula);
-            Assert.That(kula.PredkoscX, Is.EqualTo(-kula.Predkosc));
-            Assert.That(kula.PredkoscY, Is.EqualTo(-kula.Predkosc));
+            int predkoscX = kula.PredkoscX;
+            int predkoscY = kula.PredkoscY;
+            logicApi.ObslozKolizjeZeSciania(kula);
+            
+            Assert.That(kula.PredkoscX, Is.EqualTo(-predkoscX));
+            Assert.That(kula.PredkoscY, Is.EqualTo(-predkoscY));
 
 
 
@@ -155,6 +159,60 @@ namespace Testy
             //kulaApi.AnulujToken();
             //Thread.Sleep(20);
             //Assert.That(kulaApi.Informator.IsAlive, Is.False);
+        }
+
+
+        [Test]
+        public void NachodzenieTest()
+        {
+            var kulaApi = new LogicApi();
+
+            Kula kula1 = new Kula();
+            kula1.Srednica = 20;
+            kula1.X = 1;
+            kula1.Y = 1;
+            kula1.PredkoscX = 0;
+            kula1.PredkoscY = 0;
+            kulaApi.Kule.Add(kula1);
+
+            Kula kula2 = new Kula();
+            kula2.Srednica = 20;
+            kula2.X = 20;
+            kula2.Y = 20;
+            kula2.PredkoscX = -1;
+            kula2.PredkoscY = 1;
+            kulaApi.Kule.Add(kula2);
+
+
+            Assert.True(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+         
+            kula2.PredkoscY = -1;
+            Assert.True(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+            kula2.PredkoscX = 1;
+            Assert.True(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+            kula2.PredkoscY = 1;
+            Assert.False(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+            kula1.X = 40;
+            kula1.Y = 40;
+
+            Assert.True(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+
+            kula2.PredkoscY = -1;
+            Assert.True(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+            kula2.PredkoscX = -1;
+            Assert.False(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+            kula2.PredkoscY = 1;
+            Assert.True(kulaApi.SprawdzCzyNachodziNaKule(kula1, kula2));
+
+           
+
         }
     }
 }

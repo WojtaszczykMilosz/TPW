@@ -11,6 +11,7 @@ namespace Logika
         public abstract void PrzemieszczajKule();
         public abstract void AnulujToken();
         public abstract void ObslozKolizje(Kula kula);
+        public abstract void ObslozKolizjeZeSciania(Kula kula);
         public abstract bool SprawdzCzyWychodziPozaObszarX(Kula kula);
         public abstract bool SprawdzCzyWychodziPozaObszarY(Kula kula);
         public abstract bool JestKulaNaPozycji(int x, int y, int srednica);
