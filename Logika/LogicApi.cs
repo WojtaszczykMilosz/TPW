@@ -64,9 +64,10 @@ namespace Logika
             for (int i = 0; i < ileKul; i++)
             {
                 Kula kula = new Kula();
-                kula.Srednica = 20;
+                kula.Srednica = 40;
                 GenerujPolozenieKuli(kula);
                 GenerujPredkoscKuli(kula);
+                GenerujMaseKuli(kula);
                 kule.Add(kula);
             }
             dataApi.PrzepiszKule(kule);
@@ -76,24 +77,27 @@ namespace Logika
         public override void AnulujToken()
         {
             tworcaTokenow?.Cancel();
-
+            
             ruchKul = false;
         }
 
         private void GenerujPolozenieKuli(Kula kula)
         {
             Random random = new Random();
-            int x;
-            int y;
+            double x;
+            double y;
+            double dRandom;
             do
-            {
-                x = random.Next(Szerokosc - kula.Srednica);
-                y = random.Next(Wysokosc - kula.Srednica);
+            {   
+                dRandom = random.NextDouble();
+                x = dRandom * (Szerokosc - kula.Srednica);
+                dRandom = random.NextDouble();
+                y = dRandom * (Wysokosc - kula.Srednica);
             } while (JestKulaNaPozycji(x, y, kula.Srednica));
             kula.X = x;
             kula.Y = y;
         }
-        public override bool JestKulaNaPozycji(int x, int y, int srednica)
+        public override bool JestKulaNaPozycji(double x, double y, int srednica)
         {
 
             foreach (var kula in kule)
@@ -119,18 +123,20 @@ namespace Logika
 
         }
 
-        private int LosujPredkosc() {
+        private double LosujPredkosc() {
             Random random = new Random();
-            int r;
+            double dRandom;
+            double r;
             do
-            {
-                r = random.Next(9) - 4;
+            {   
+                dRandom = random.NextDouble();
+                r = dRandom * (5 + 5) - 5;
 
             } while (r == 0);
             return r;
         }
 
-        public void GenerujMaseKuli(Kula kula)
+        private void GenerujMaseKuli(Kula kula)
         {
             Random random = new Random();
             kula.Masa = random.Next(20) + 5;
@@ -144,6 +150,7 @@ namespace Logika
                 tworcaTokenow = new CancellationTokenSource();
                 var token = tworcaTokenow.Token;
                 int i = 1;
+                watkiKul.Clear();
                 foreach (var kula in kule)
                 {
                     Thread thread = new Thread(() => CiaglyRuchKuli(kula, token));
@@ -254,14 +261,14 @@ namespace Logika
 
         public bool SprawdzCzyNachodziNaKule(Kula kulaNachodzaca, Kula innaKula)
         {
-            double dx = kulaNachodzaca.X + kulaNachodzaca.PredkoscX - (innaKula.X + innaKula.PredkoscX);
-            double dy = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY - (innaKula.Y + innaKula.PredkoscY);
+            double dx = kulaNachodzaca.X + (kulaNachodzaca.Srednica / 2) + kulaNachodzaca.PredkoscX - (innaKula.X + innaKula.PredkoscX + (innaKula.Srednica/2));
+            double dy = kulaNachodzaca.Y + (kulaNachodzaca.Srednica / 2) + kulaNachodzaca.PredkoscY - (innaKula.Y + innaKula.PredkoscY + (innaKula.Srednica / 2));
 
             return Math.Sqrt((dx * dx) + (dy * dy)) <= kulaNachodzaca.Srednica / 2 + innaKula.Srednica / 2;
 
            // return SprawdziCzyNachodziNaKuleX(kulaNachodzaca, innaKula) && SprawdziCzyNachodziNaKuleY(kulaNachodzaca, innaKula);
         }
-        public bool SprawdziCzyNachodziNaKuleX(Kula kulaNachodzaca, Kula innaKula)
+       /* public bool SprawdziCzyNachodziNaKuleX(Kula kulaNachodzaca, Kula innaKula)
         {
             bool warunek1 = kulaNachodzaca.X + kulaNachodzaca.PredkoscX < innaKula.X + innaKula.PredkoscX + innaKula.Srednica;
             bool warunek2 = kulaNachodzaca.X + kulaNachodzaca.PredkoscX + kulaNachodzaca.Srednica > innaKula.X + innaKula.PredkoscX;
@@ -274,10 +281,10 @@ namespace Logika
             bool warunek1 = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY < innaKula.Y + innaKula.PredkoscY + innaKula.Srednica;
             bool warunek2 = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY + kulaNachodzaca.Srednica > innaKula.Y + innaKula.PredkoscY;
             return warunek1 && warunek2;
-        }
+        }*/
 
 
-        public void OdbijKule(Kula kulaNachodzaca, Kula innaKula)
+        private void OdbijKule(Kula kulaNachodzaca, Kula innaKula)
         {
             double nowaPredkoscX;
             double nowaPredkoscY;

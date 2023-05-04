@@ -26,7 +26,7 @@ namespace Dane
         }
 
         public DataApi(){
-            pudlo = new Pudelko(400, 400);  
+            pudlo = new Pudelko(500, 500);  
         }
 
         public override void PrzepiszKule(List<Kula> kule)

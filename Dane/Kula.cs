@@ -5,9 +5,7 @@ namespace Dane
     public class Kula : NotifiedObject
     {
         public Kula() {
-            Random rand = new Random();
-            masa = rand.Next(40)+1;
-
+            masa = 1;
         }
 
         private double x;

@@ -12,13 +12,13 @@
         <Grid.DataContext>
             <ViewModel:MainViewModel/>
         </Grid.DataContext>
-        <Button Content="STWORZ KULE" HorizontalAlignment="Left" Margin="45,80,0,0" Command="{Binding StworzKule}" VerticalAlignment="Top" Height="20" Width="80"/>
-        <Button Content="START" HorizontalAlignment="Left" Margin="45,127,0,0" Command="{Binding Start}" VerticalAlignment="Top" Height="20" Width="80"/>
-        <Button Content="STOP" HorizontalAlignment="Left" Margin="45,177,0,0" Command="{Binding Stop}" VerticalAlignment="Top" Height="20" Width="80"/>
-        <TextBox HorizontalAlignment="Left" Margin="55,50,0,0" TextWrapping="Wrap" Text="{Binding IloscKulek}" VerticalAlignment="Top" Width="60"/>
-        <Label Content="Ilosc kulek&#xD;&#xA;" HorizontalAlignment="Left" Margin="53,19,0,0" VerticalAlignment="Top" Height="26"/>
-        
-        <ItemsControl ItemsSource="{Binding Kule}" Margin="144,59,0,29">
+        <Button Content="STWORZ KULE" HorizontalAlignment="Left" Margin="23,260,0,0" Command="{Binding StworzKule}" VerticalAlignment="Top" Height="58" Width="232" FontSize="35"/>
+        <Button Content="START" HorizontalAlignment="Left" Margin="23,345,0,0" Command="{Binding Start}" VerticalAlignment="Top" Height="56" Width="232" FontSize="35"/>
+        <Button Content="STOP" HorizontalAlignment="Left" Margin="23,426,0,0" Command="{Binding Stop}" VerticalAlignment="Top" Height="58" Width="232" FontSize="35"/>
+        <TextBox HorizontalAlignment="Left" Margin="23,176,0,0" TextWrapping="Wrap" Text="{Binding IloscKulek}" VerticalAlignment="Top" Width="232" Height="69" HorizontalContentAlignment="Center" FontSize="45"/>
+        <Label Content="Ilosc kulek&#xD;&#xA;" HorizontalAlignment="Left" Margin="23,99,0,0" VerticalAlignment="Top" Height="59" FontSize="45" Width="232" HorizontalContentAlignment="Center"/>
+
+        <ItemsControl ItemsSource="{Binding Kule}" Margin="174,19,-30,69">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <Canvas Margin="53,19,0,0" Width="{Binding Szerokosc}" Height="{Binding Wysokosc}" Background="#000000"/>
@@ -34,14 +34,14 @@
                 <DataTemplate>
                     <Grid>
                         <Ellipse Width="{Binding Srednica}" Height="{Binding Srednica}" Fill="White"/>
-                        <TextBlock HorizontalAlignment="Center" Text="{Binding Masa}" TextAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" Text="{Binding Masa}" TextAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
                     </Grid>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
-            
+
         </ItemsControl>
-        
-        
+
+
     </Grid>
 
 </Window>

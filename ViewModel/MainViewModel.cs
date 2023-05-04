@@ -4,7 +4,6 @@ using System.Windows.Input;
 using Logika;
 using Model;
 using Dane;
-using System.Windows.Media;
 
 namespace ViewModel
 {

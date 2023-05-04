@@ -16,7 +16,7 @@ namespace Logika
         public abstract bool SprawdzCzyWychodziPozaObszarXzLewej(Kula kula);
         public abstract bool SprawdzCzyWychodziPozaObszarYzGory(Kula kula);
         public abstract bool SprawdzCzyWychodziPozaObszarYzDolu(Kula kula);
-        public abstract bool JestKulaNaPozycji(int x, int y, int srednica);
+        public abstract bool JestKulaNaPozycji(double x, double y, int srednica);
         public abstract void RozpocznijInformatora(int czas);
         public abstract int Szerokosc { get; }
         public abstract int Wysokosc { get; }

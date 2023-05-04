@@ -11,8 +11,8 @@ namespace Tests
         {
 
             AbstractDataApi dataApi = new DataApi();
-            Assert.That(dataApi.Wysokosc, Is.EqualTo(400));
-            Assert.That(dataApi.Szerokosc, Is.EqualTo(400));
+            Assert.That(dataApi.Wysokosc, Is.EqualTo(500));
+            Assert.That(dataApi.Szerokosc, Is.EqualTo(500));
 
 
             
@@ -33,6 +33,7 @@ namespace Tests
             Assert.That(kula.X, Is.EqualTo(1));
             Assert.That(kula.Y, Is.EqualTo(2));
             Assert.That(kula.Srednica, Is.EqualTo(20));
+            Assert.That(kula.Masa, Is.EqualTo(1));
 
 
 
