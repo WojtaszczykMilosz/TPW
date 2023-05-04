@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
 using System.Threading;
+using System.Threading.Tasks;
 using Dane;
 
 namespace Logika
@@ -169,8 +170,9 @@ namespace Logika
                         // Debug.WriteLine(Thread.CurrentThread.Name + " zakończyła ruch.");
                         return;
                     }
-                    kula.Przemieszczaj();
                     ObslozKolizje(kula);
+                    kula.Przemieszczaj();
+                    
                 }
                 Thread.Sleep(10);
             }
@@ -178,31 +180,55 @@ namespace Logika
 
         public override void ObslozKolizje(Kula kula)
         {
-            ObslozKolizjeZeSciania(kula);
             ObslozKolizjeZInnaKula(kula);
+            ObslozKolizjeZeSciania(kula);
         }
         
         public override void ObslozKolizjeZeSciania(Kula kula)
         {
-            if (SprawdzCzyWychodziPozaObszarX(kula))
+            if (SprawdzCzyWychodziPozaObszarXzLewej(kula))
             {
                 kula.PredkoscX = -kula.PredkoscX;
+                kula.X = 0;
+            } else if (SprawdzCzyWychodziPozaObszarXzPrawej(kula))
+            {
+                kula.PredkoscX = -kula.PredkoscX;
+                kula.X = Szerokosc - kula.Srednica;
             }
-
-            if (SprawdzCzyWychodziPozaObszarY(kula))
+            if (SprawdzCzyWychodziPozaObszarYzGory(kula))
             {
                 kula.PredkoscY = -kula.PredkoscY;
+                kula.Y = 0;
             }
+            else if (SprawdzCzyWychodziPozaObszarYzDolu(kula))
+            {
+                kula.PredkoscY = -kula.PredkoscY;
+                kula.Y = Wysokosc - kula.Srednica;
+            }
+
+
         }
 
-        public override bool SprawdzCzyWychodziPozaObszarX(Kula kula)
+        
+
+        public override bool SprawdzCzyWychodziPozaObszarXzLewej(Kula kula)
         {
-            return kula.X + kula.PredkoscX + kula.Srednica > Szerokosc || kula.X + kula.PredkoscX < 0;
+            return kula.X + kula.PredkoscX < 0;
         }
 
-        public override bool SprawdzCzyWychodziPozaObszarY(Kula kula)
+        public override bool SprawdzCzyWychodziPozaObszarXzPrawej(Kula kula)
         {
-            return kula.Y + kula.PredkoscY + kula.Srednica > Wysokosc || kula.Y + kula.PredkoscY < 0;
+            return kula.X + kula.Srednica + kula.PredkoscX > Szerokosc;
+        }
+
+        public override bool SprawdzCzyWychodziPozaObszarYzDolu(Kula kula)
+        {
+            return kula.Y + kula.Srednica + kula.PredkoscY > Wysokosc;
+        }
+
+        public override bool SprawdzCzyWychodziPozaObszarYzGory(Kula kula)
+        {
+            return kula.Y + kula.PredkoscY < 0;
         }
 
 
@@ -212,6 +238,7 @@ namespace Logika
             {
                 if (SprawdzKolizjeKuli(kula, innaKula))
                 {
+
                     OdbijKule(kula, innaKula);
                 }
             }
@@ -227,7 +254,12 @@ namespace Logika
 
         public bool SprawdzCzyNachodziNaKule(Kula kulaNachodzaca, Kula innaKula)
         {
-            return SprawdziCzyNachodziNaKuleX(kulaNachodzaca, innaKula) && SprawdziCzyNachodziNaKuleY(kulaNachodzaca, innaKula);
+            double dx = kulaNachodzaca.X + kulaNachodzaca.PredkoscX - (innaKula.X + innaKula.PredkoscX);
+            double dy = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY - (innaKula.Y + innaKula.PredkoscY);
+
+            return Math.Sqrt((dx * dx) + (dy * dy)) <= kulaNachodzaca.Srednica / 2 + innaKula.Srednica / 2;
+
+           // return SprawdziCzyNachodziNaKuleX(kulaNachodzaca, innaKula) && SprawdziCzyNachodziNaKuleY(kulaNachodzaca, innaKula);
         }
         public bool SprawdziCzyNachodziNaKuleX(Kula kulaNachodzaca, Kula innaKula)
         {
@@ -243,6 +275,7 @@ namespace Logika
             bool warunek2 = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY + kulaNachodzaca.Srednica > innaKula.Y + innaKula.PredkoscY;
             return warunek1 && warunek2;
         }
+
 
         public void OdbijKule(Kula kulaNachodzaca, Kula innaKula)
         {

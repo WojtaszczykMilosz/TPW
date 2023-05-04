@@ -12,8 +12,10 @@ namespace Logika
         public abstract void AnulujToken();
         public abstract void ObslozKolizje(Kula kula);
         public abstract void ObslozKolizjeZeSciania(Kula kula);
-        public abstract bool SprawdzCzyWychodziPozaObszarX(Kula kula);
-        public abstract bool SprawdzCzyWychodziPozaObszarY(Kula kula);
+        public abstract bool SprawdzCzyWychodziPozaObszarXzPrawej(Kula kula);
+        public abstract bool SprawdzCzyWychodziPozaObszarXzLewej(Kula kula);
+        public abstract bool SprawdzCzyWychodziPozaObszarYzGory(Kula kula);
+        public abstract bool SprawdzCzyWychodziPozaObszarYzDolu(Kula kula);
         public abstract bool JestKulaNaPozycji(int x, int y, int srednica);
         public abstract void RozpocznijInformatora(int czas);
         public abstract int Szerokosc { get; }
