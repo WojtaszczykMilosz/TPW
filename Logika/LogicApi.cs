@@ -43,6 +43,14 @@ namespace Logika
             dataApi = DataApiFactory.CreateDataApi();
         }
 
+
+        /*private List<Task> zadaniaKul = new List<Task>();
+
+        public List<Task> Zadaniaku
+        {
+            get { return zadaniaKul; }
+        }*/
+
         private List<Thread> watkiKul = new List<Thread>();
 
         public List<Thread> WatkiKul
@@ -151,14 +159,18 @@ namespace Logika
                 var token = tworcaTokenow.Token;
                 int i = 1;
                 watkiKul.Clear();
+                //zadaniaKul.Clear();
                 foreach (var kula in kule)
                 {
                     Thread thread = new Thread(() => CiaglyRuchKuli(kula, token));
+                    //Task task = new Task(() => CiaglyRuchKuli(kula, token));
+                    //task.Start();
                     thread.Name = "Kula numer: " + i;
                     thread.IsBackground = true;
                     thread.Start();
                     i++;
                     watkiKul.Add(thread);
+                    //zadaniaKul.Add(task);
                 }
             }
 
