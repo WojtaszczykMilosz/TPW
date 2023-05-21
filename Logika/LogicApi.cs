@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
 using Dane;
 
 namespace Logika
@@ -12,7 +14,7 @@ namespace Logika
 
         private CancellationTokenSource tworcaTokenow = null;
         private bool ruchKul = false;
-        public bool RuchKul
+        public override bool RuchKul
         {
             get { return ruchKul; } 
         }
@@ -356,9 +358,12 @@ namespace Logika
                 Thread.Sleep(czas);
             }
         }
-       
 
-       
+
+        public override void ZapiszDoXML()
+        {
+            Logger.Logguj(this);
+        }
 
        
 

@@ -20,6 +20,8 @@ namespace Logika
         public abstract void RozpocznijInformatora(int czas);
         public abstract int Szerokosc { get; }
         public abstract int Wysokosc { get; }
+        public abstract bool RuchKul { get; }
+        public abstract void ZapiszDoXML();
 
     }
 }

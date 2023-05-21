@@ -62,6 +62,7 @@ namespace Model
         public void Stop()
         {
             logicApi.AnulujToken();
+            logicApi.ZapiszDoXML();
         }
     }
 }

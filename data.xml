@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <log>
+    <czas>21.05.2023 13:56:00</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>5</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>124,62080306971382</X><Y>109,91337201734548</Y><PredkoscX>2,651506448291782</PredkoscX><PredkoscY>3,925477572048054</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 2<X>190,23571660375273</X><Y>28,590360709885495</Y><PredkoscX>0,49515873898791973</PredkoscX><PredkoscY>-2,6059615857719676</PredkoscY><Srednica>40</Srednica><Masa>16</Masa></kula>
+      <kula>Kula 3<X>132,05534895028225</X><Y>196,88656910717407</Y><PredkoscX>2,3581312312550384</PredkoscX><PredkoscY>-4,5364384636694</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 4<X>408,0307411652607</X><Y>385,5389166003197</Y><PredkoscX>2,680046624608245</PredkoscX><PredkoscY>-3,9190043894568465</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 5<X>334,4769069345788</X><Y>431,20629362944703</Y><PredkoscX>1,4091134445874491</PredkoscX><PredkoscY>-4,7989510617588405</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+    </listaKul>
+  </log>
+</root>
