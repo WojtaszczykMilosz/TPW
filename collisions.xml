@@ -1,0 +1,3608 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:35</czas>
+    <kula1>4</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:35</czas>
+    <kula1>4</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:36</czas>
+    <kula1>2</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:37</czas>
+    <kula1>2</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:40</czas>
+    <kula1>0</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:42</czas>
+    <kula1>4</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:43</czas>
+    <kula1>2</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="0">
+    <czas>23.05.2023 11:40:43</czas>
+    <kula1>2</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="3">
+    <czas>23.05.2023 12:02:39</czas>
+    <kula1>0</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="3">
+    <czas>23.05.2023 12:02:42</czas>
+    <kula1>0</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="3">
+    <czas>23.05.2023 12:02:43</czas>
+    <kula1>2</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="3">
+    <czas>23.05.2023 12:02:44</czas>
+    <kula1>2</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="3">
+    <czas>23.05.2023 12:02:46</czas>
+    <kula1>1</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <kula1>16</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <kula1>3</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <kula1>16</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <kula1>30</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <kula1>0</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <kula1>31</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <kula1>7</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="4">
+    <czas>23.05.2023 12:03:21</czas>
+    <kula1>22</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>27</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>21</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>21</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>26</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>3</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>20</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>2</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>28</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>4</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>16</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>27</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>4</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>12</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>20</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>3</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>6</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>30</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>8</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>14</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>2</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <kula1>11</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>12</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>26</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>17</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>2</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>27</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>28</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>2</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>5</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>5</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>20</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>30</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>4</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>2</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>27</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>21</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>24</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>16</kula1>
+    <kula2>13</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>16</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>0</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>25</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>9</kula1>
+    <kula2>13</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>30</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>32</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>23</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>22</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>8</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>32</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>7</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>24</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>13</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>19</kula1>
+    <kula2>7</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>17</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>9</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>12</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>16</kula1>
+    <kula2>13</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>15</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>20</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>4</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>5</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>23</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>7</kula1>
+    <kula2>13</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>14</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>21</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>23</kula1>
+    <kula2>28</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>27</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>2</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>1</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>5</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>28</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>2</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>11</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>7</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>18</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>3</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>25</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>23</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>7</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>17</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>16</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:53</czas>
+    <kula1>1</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>13</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>16</kula1>
+    <kula2>13</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>21</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>14</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>1</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>17</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>4</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>9</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>10</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>21</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>4</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>9</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>4</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>1</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>9</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>10</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>21</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>4</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>2</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>10</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>3</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>15</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>15</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>31</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>1</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>14</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>5</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>8</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>15</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>19</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>25</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>8</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>4</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>10</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <kula1>30</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:22</czas>
+    <kula1>2</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:23</czas>
+    <kula1>3</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:23</czas>
+    <kula1>5</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:23</czas>
+    <kula1>2</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:24</czas>
+    <kula1>1</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:25</czas>
+    <kula1>2</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:26</czas>
+    <kula1>2</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:26</czas>
+    <kula1>4</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:26</czas>
+    <kula1>1</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:27</czas>
+    <kula1>0</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:28</czas>
+    <kula1>0</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:29</czas>
+    <kula1>5</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:29</czas>
+    <kula1>0</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:31</czas>
+    <kula1>5</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:31</czas>
+    <kula1>4</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:31</czas>
+    <kula1>1</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:31</czas>
+    <kula1>3</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:33</czas>
+    <kula1>0</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:34</czas>
+    <kula1>1</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:35</czas>
+    <kula1>4</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:35</czas>
+    <kula1>5</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:35</czas>
+    <kula1>2</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:35</czas>
+    <kula1>2</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:35</czas>
+    <kula1>4</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:36</czas>
+    <kula1>0</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:36</czas>
+    <kula1>1</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:36</czas>
+    <kula1>0</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:37</czas>
+    <kula1>3</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:37</czas>
+    <kula1>3</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:37</czas>
+    <kula1>4</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:38</czas>
+    <kula1>5</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:39</czas>
+    <kula1>5</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:40</czas>
+    <kula1>4</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:40</czas>
+    <kula1>5</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:40</czas>
+    <kula1>5</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:41</czas>
+    <kula1>4</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:42</czas>
+    <kula1>0</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="6">
+    <czas>23.05.2023 20:38:42</czas>
+    <kula1>0</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="7">
+    <czas>23.05.2023 20:47:24</czas>
+    <kula1>0</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="7">
+    <czas>23.05.2023 20:47:24</czas>
+    <kula1>4</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>14</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>47</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>17</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>5</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>36</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>23</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>6</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>22</kula1>
+    <kula2>38</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>0</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>4</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>10</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>40</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>17</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>20</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>20</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>23</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>23</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>1</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>27</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>35</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>35</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>5</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>37</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>37</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>6</kula1>
+    <kula2>37</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>46</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>45</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>45</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>35</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>27</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>27</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>9</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>37</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>3</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>3</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>3</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>14</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>28</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>37</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>0</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>0</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>30</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>11</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>10</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>39</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>6</kula1>
+    <kula2>37</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>0</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>0</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>25</kula1>
+    <kula2>37</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>2</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>30</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>28</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>40</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>4</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>45</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>45</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>21</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>30</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>38</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>36</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>34</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>44</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>44</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>40</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>28</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>49</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>15</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>10</kula1>
+    <kula2>36</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>17</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>32</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>32</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>25</kula1>
+    <kula2>37</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>25</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>1</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>15</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>12</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>38</kula1>
+    <kula2>41</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>6</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>37</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>3</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>7</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>27</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>0</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>1</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>8</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>38</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>27</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>18</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>33</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>17</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>35</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>1</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>5</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>17</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>17</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>24</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>15</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>15</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>49</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>22</kula1>
+    <kula2>38</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>1</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>6</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>28</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>28</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>28</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>23</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <kula1>3</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>10</kula1>
+    <kula2>7</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>13</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>40</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>23</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>29</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>0</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>49</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>11</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>11</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>43</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>2</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>28</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>49</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>15</kula1>
+    <kula2>7</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>12</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>17</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>40</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>21</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>42</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>42</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>21</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>10</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>40</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>12</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>0</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>27</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>43</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>22</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>11</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>13</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>45</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>3</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>33</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>17</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>46</kula1>
+    <kula2>47</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>43</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>43</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>18</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>27</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>7</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>12</kula1>
+    <kula2>47</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>44</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>2</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>14</kula1>
+    <kula2>41</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>11</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>28</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>23</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>33</kula1>
+    <kula2>28</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>21</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>24</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>0</kula1>
+    <kula2>36</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>1</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>17</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>17</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>15</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>48</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>13</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>39</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>18</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>18</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>35</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>27</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>2</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>47</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>32</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>42</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>45</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>12</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>5</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>36</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>10</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>26</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>7</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>39</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>48</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>19</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>42</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>31</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>18</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>37</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>40</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>29</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>21</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>27</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>25</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>18</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>49</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>3</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>6</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>38</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>26</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>13</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>44</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>11</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>27</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>26</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>2</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>44</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>31</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>21</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>2</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>2</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>47</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>5</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>44</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>24</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>17</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>8</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>15</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>23</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>28</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>26</kula1>
+    <kula2>38</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>47</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:53</czas>
+    <kula1>42</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>43</kula1>
+    <kula2>28</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>8</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>6</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>0</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>24</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>34</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>34</kula1>
+    <kula2>28</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>27</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>10</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>41</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>41</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>13</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>47</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>38</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>44</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>46</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>41</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>37</kula1>
+    <kula2>4</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>41</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>47</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>29</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>41</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>7</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>3</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>17</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>43</kula1>
+    <kula2>28</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>8</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>19</kula1>
+    <kula2>13</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>18</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>26</kula1>
+    <kula2>38</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>32</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>11</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>19</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>36</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>15</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>27</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>42</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>18</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>47</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>0</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>7</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>28</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>43</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>46</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>36</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>25</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>40</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>9</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>46</kula1>
+    <kula2>47</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>45</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>38</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>28</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>20</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>9</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>16</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>43</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>29</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>9</kula1>
+    <kula2>47</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>45</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>48</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>26</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>19</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>17</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>45</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>5</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>46</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>0</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>13</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>38</kula1>
+    <kula2>18</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>10</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>26</kula1>
+    <kula2>48</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>9</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>21</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>3</kula1>
+    <kula2>37</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>15</kula1>
+    <kula2>7</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>23</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>5</kula1>
+    <kula2>40</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>46</kula1>
+    <kula2>47</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>42</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>35</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>34</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>20</kula1>
+    <kula2>41</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>7</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>45</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:54</czas>
+    <kula1>24</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>5</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>36</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>22</kula1>
+    <kula2>38</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>45</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>20</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>40</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>13</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>10</kula1>
+    <kula2>7</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>42</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>5</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>36</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>17</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>16</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>6</kula1>
+    <kula2>37</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>16</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>30</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>24</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>21</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>12</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>9</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>9</kula1>
+    <kula2>47</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>34</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>7</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>21</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>8</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>20</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>17</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>8</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>30</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>14</kula1>
+    <kula2>31</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>21</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>46</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>38</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>42</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>42</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>5</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>19</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>21</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>46</kula1>
+    <kula2>16</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>42</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>7</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>37</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>40</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>3</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>8</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>27</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>7</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>42</kula1>
+    <kula2>24</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>46</kula1>
+    <kula2>47</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>5</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>16</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>27</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>38</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>28</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>7</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>23</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>23</kula1>
+    <kula2>27</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>5</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>27</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>38</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>2</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>17</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>25</kula1>
+    <kula2>1</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>47</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>33</kula1>
+    <kula2>28</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>22</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>47</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>16</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>8</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>20</kula1>
+    <kula2>41</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>31</kula1>
+    <kula2>41</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>45</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>27</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>17</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>17</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>8</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>22</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>0</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>40</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>5</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>5</kula1>
+    <kula2>10</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>2</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>8</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>3</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>6</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>23</kula1>
+    <kula2>44</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>47</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>45</kula1>
+    <kula2>9</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>9</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>22</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>3</kula1>
+    <kula2>35</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>12</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>12</kula1>
+    <kula2>38</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>30</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>40</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:55</czas>
+    <kula1>30</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>44</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>35</kula1>
+    <kula2>3</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>40</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>26</kula1>
+    <kula2>21</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>32</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>32</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>11</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>41</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>12</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>15</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>3</kula1>
+    <kula2>30</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>10</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>2</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>13</kula1>
+    <kula2>33</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>26</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>7</kula1>
+    <kula2>15</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>31</kula1>
+    <kula2>14</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>48</kula1>
+    <kula2>13</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>2</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>26</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>44</kula1>
+    <kula2>45</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>47</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>12</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>2</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>26</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>7</kula1>
+    <kula2>5</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>26</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>46</kula1>
+    <kula2>39</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>23</kula1>
+    <kula2>22</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>17</kula1>
+    <kula2>8</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>20</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>26</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>8</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>37</kula1>
+    <kula2>6</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>19</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>9</kula1>
+    <kula2>42</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>22</kula1>
+    <kula2>12</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>20</kula1>
+    <kula2>26</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>29</kula1>
+    <kula2>37</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>40</kula1>
+    <kula2>0</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>48</kula1>
+    <kula2>19</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>41</kula1>
+    <kula2>20</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>8</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>44</kula1>
+    <kula2>23</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>6</kula1>
+    <kula2>25</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>12</kula1>
+    <kula2>11</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>49</kula1>
+    <kula2>43</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>36</kula1>
+    <kula2>34</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>36</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>16</kula1>
+    <kula2>46</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>43</kula1>
+    <kula2>49</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>20</kula1>
+    <kula2>38</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>4</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>1</kula1>
+    <kula2>29</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>8</kula1>
+    <kula2>17</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>12</kula1>
+    <kula2>2</kula2>
+  </kolizja>
+  <kolizja sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <kula1>9</kula1>
+    <kula2>32</kula2>
+  </kolizja>
+</root>

@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <log sessionID="0">
+    <czas>23.05.2023 11:40:35</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>5</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>178,4512337887596</X><Y>151,88779014382706</Y><PredkoscX>-4,595903543032318</PredkoscX><PredkoscY>1,8641543221349917</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 2<X>161,73816701507877</X><Y>277,4574960372413</Y><PredkoscX>4,195767482638123</PredkoscX><PredkoscY>-2,4674304790381596</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 3<X>280,5175251790203</X><Y>289,36030636697717</Y><PredkoscX>-2,9251219140954934</PredkoscX><PredkoscY>-4,655125662372858</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 4<X>408,0641075989529</X><Y>80,37532633989812</Y><PredkoscX>1,402672955352883</PredkoscX><PredkoscY>1,9373376534606983</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 5<X>262,7200104541145</X><Y>224,88823081284897</Y><PredkoscX>4,360692994103353</PredkoscX><PredkoscY>2,5549737670682955</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="0">
+    <czas>23.05.2023 11:40:38</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>5</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>147,52434581866447</X><Y>11,146712086376061</Y><PredkoscX>2,235217360888854</PredkoscX><PredkoscY>2,229342417275212</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 2<X>73,45568654375614</X><Y>176,34006367109527</Y><PredkoscX>-0,9230882562716962</PredkoscX><PredkoscY>2,2321527046974112</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 3<X>234,19209868899136</X><Y>390,18463330264666</Y><PredkoscX>8,075589609965217</PredkoscX><PredkoscY>4,794816046593617</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 4<X>229,96163532212526</X><Y>448,3759740792358</Y><PredkoscX>-1,402672955352883</PredkoscX><PredkoscY>-1,9373376534606983</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 5<X>311,8211712387538</X><Y>57,22469978245343</Y><PredkoscX>4,84359070674352</PredkoscX><PredkoscY>-2,246160099657942</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="0">
+    <czas>23.05.2023 11:40:39</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>5</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>219,49159699609822</X><Y>215,29308738086837</Y><PredkoscX>-2,0765246797215484</PredkoscX><PredkoscY>-4,476382357182343</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 2<X>184,48686595958728</X><Y>48,43340509084703</Y><PredkoscX>0,27348221449947197</PredkoscX><PredkoscY>-4,198431075786278</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 3<X>459,6200074567227</X><Y>380,32507156939374</Y><PredkoscX>2,4889439673761684</PredkoscX><PredkoscY>3,390693902422621</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 4<X>188,57255533292962</X><Y>444,2256410323202</Y><PredkoscX>-4,109314278860502</PredkoscX><PredkoscY>0,5440826019358935</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 5<X>38,7109691731314</X><Y>176,26118547692818</Y><PredkoscX>-1,03156345154789</PredkoscX><PredkoscY>-2,921515966373919</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="0">
+    <czas>23.05.2023 11:40:43</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>5</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>188,6402840767638</X><Y>340,70190666032823</Y><PredkoscX>3,3579871569029014</PredkoscX><PredkoscY>5,438468148882886</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 2<X>116,37332703850969</X><Y>176,07411682747968</Y><PredkoscX>1,0261967497916482</PredkoscX><PredkoscY>-4,936081856220122</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 3<X>119,41367599780497</X><Y>236,8833361597729</Y><PredkoscX>0,4449251866905392</PredkoscX><PredkoscY>3,9965090380823263</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 4<X>106,59897201799743</X><Y>343,5663231857209</Y><PredkoscX>-4,109314278860502</PredkoscX><PredkoscY>-0,5440826019358935</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 5<X>268,9356693224051</X><Y>177,96788338467954</Y><PredkoscX>1,6062150690987549</PredkoscX><PredkoscY>-0,615964258579827</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="1">
+    <czas>23.05.2023 11:41:55</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>3</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>449,4836810036128</X><Y>346,32012046616563</Y><PredkoscX>-0,049926362251</PredkoscX><PredkoscY>-1,955184928028526</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 2<X>60,936909063681114</X><Y>64,680062978732</Y><PredkoscX>0,08528918268015495</PredkoscX><PredkoscY>-0,8210470906606897</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 3<X>335,31355277878504</X><Y>84,2658929782469</Y><PredkoscX>4,7617778201025835</PredkoscX><PredkoscY>2,0280681545995547</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="1">
+    <czas>23.05.2023 11:41:56</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>3</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>446,18854109504866</X><Y>217,27791521628268</Y><PredkoscX>-0,049926362251</PredkoscX><PredkoscY>-1,955184928028526</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 2<X>66,56599512057146</X><Y>10,490954995126371</Y><PredkoscX>0,08528918268015495</PredkoscX><PredkoscY>-0,8210470906606897</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 3<X>269,52888719589737</X><Y>218,11839118181797</Y><PredkoscX>-4,7617778201025835</PredkoscX><PredkoscY>2,0280681545995547</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="2">
+    <czas>23.05.2023 11:41:57</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>3</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>261,2850469078263</X><Y>207,00630995535357</Y><PredkoscX>1,6252622625918232</PredkoscX><PredkoscY>-4,290542551133055</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 2<X>399,4792112630251</X><Y>206,05453201527087</Y><PredkoscX>2,7481146252695767</PredkoscX><PredkoscY>3,6650004090598145</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 3<X>409,98731351050606</X><Y>313,1209963036907</Y><PredkoscX>-1,7136477287781937</PredkoscX><PredkoscY>4,2736975223544</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="2">
+    <czas>23.05.2023 11:41:58</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>3</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>345,7986845626016</X><Y>17,16217020453222</Y><PredkoscX>1,6252622625918232</PredkoscX><PredkoscY>4,290542551133055</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 2<X>377,5565612419126</X><Y>396,6345532863812</Y><PredkoscX>-2,7481146252695767</PredkoscX><PredkoscY>3,6650004090598145</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 3<X>320,87763161403973</X><Y>383,0734445976211</Y><PredkoscX>-1,7136477287781937</PredkoscX><PredkoscY>-4,2736975223544</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="3">
+    <czas>23.05.2023 12:02:36</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>3</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>16,247862533081303</X><Y>439,73587482817516</Y><PredkoscX>3,379170405014751</PredkoscX><PredkoscY>-3,2024464774177774</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 2<X>291,1968715563668</X><Y>170,5812918849214</Y><PredkoscX>2,1321217160382684</PredkoscX><PredkoscY>3,0514158846246815</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 3<X>73,06844052879653</X><Y>2,2263189038135636</Y><PredkoscX>4,8478903540865055</PredkoscX><PredkoscY>-3,0683494971995042</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="3">
+    <czas>23.05.2023 12:02:47</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>3</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>244,2453501614546</X><Y>355,4624292392558</Y><PredkoscX>-3,536961472763048</PredkoscX><PredkoscY>-2,2725558861031367</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 2<X>135,86875040084206</X><Y>338,5854713093962</Y><PredkoscX>-4,616610315003769</PredkoscX><PredkoscY>2,1249158298855058</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 3<X>388,76449811413767</X><Y>73,75578338081743</Y><PredkoscX>-0,7101510705601511</PredkoscX><PredkoscY>4,60973646130109</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="4">
+    <czas>23.05.2023 12:03:15</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>33</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>312,1262286867562</X><Y>96,10874614028805</Y><PredkoscX>0,6253630454673793</PredkoscX><PredkoscY>-4,995733549131119</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 2<X>142,51341246758383</X><Y>258,8908644563658</Y><PredkoscX>0,9127080299908084</PredkoscX><PredkoscY>2,5180271677869968</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 3<X>176,0358672319013</X><Y>3,8753823092555733</Y><PredkoscX>-1,2805539872135083</PredkoscX><PredkoscY>-1,682548476075264</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 4<X>4,286095844818497</X><Y>283,86792865672373</Y><PredkoscX>3,5815728148384682</PredkoscX><PredkoscY>-1,3596600294954841</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 5<X>176,2188424320673</X><Y>422,5289073286276</Y><PredkoscX>2,946864361636825</PredkoscX><PredkoscY>-4,659121767053804</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 6<X>44,53670078807433</X><Y>178,4659370356301</Y><PredkoscX>4,609781475155021</PredkoscX><PredkoscY>2,936718021494057</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 7<X>277,37198359173624</X><Y>23,787253394934677</Y><PredkoscX>-4,714552473407185</PredkoscX><PredkoscY>-1,3942475088279407</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 8<X>133,052543599415</X><Y>390,95786362741455</Y><PredkoscX>1,771697153906155</PredkoscX><PredkoscY>1,192784913901451</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 9<X>355,1575212898242</X><Y>31,703529403396956</Y><PredkoscX>0,7934424247768117</PredkoscX><PredkoscY>2,3202437243579936</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 10<X>42,31298699848155</X><Y>262,1175618285798</Y><PredkoscX>-1,147735972000702</PredkoscX><PredkoscY>-1,8391452160064246</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 11<X>145,53638085595534</X><Y>88,86646392741409</Y><PredkoscX>-4,809202110175398</PredkoscX><PredkoscY>-1,2266968242705936</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 12<X>449,4519347091484</X><Y>437,55819295063435</Y><PredkoscX>1,4920957653434517</PredkoscX><PredkoscY>1,0031033926388586</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 13<X>410,5990959906355</X><Y>100,30320628809804</Y><PredkoscX>1,3730247845982397</PredkoscX><PredkoscY>-3,602060480009297</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 14<X>49,07386397153516</X><Y>448,1398495184672</Y><PredkoscX>3,6343639620790267</PredkoscX><PredkoscY>4,611994754279937</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 15<X>240,544077193983</X><Y>385,38982976518054</Y><PredkoscX>-1,6852282706714927</PredkoscX><PredkoscY>3,542386469420075</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 16<X>310,0800005496869</X><Y>257,75608246079673</Y><PredkoscX>0,04433685238385543</PredkoscX><PredkoscY>2,4276406742886714</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 17<X>227,79945571904832</X><Y>13,518253356438334</Y><PredkoscX>4,66714119514509</PredkoscX><PredkoscY>3,2925067872402374</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 18<X>194,850659919875</X><Y>315,49248646491156</Y><PredkoscX>-1,032729231340154</PredkoscX><PredkoscY>-2,2304990186018934</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 19<X>244,66071926243293</X><Y>329,88523718167073</Y><PredkoscX>4,668594987397338</PredkoscX><PredkoscY>2,7191692500904416</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 20<X>80,44273570505297</X><Y>217,36049713896773</Y><PredkoscX>-4,672123669514975</PredkoscX><PredkoscY>-1,9633406398154363</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 21<X>459,02178003606605</X><Y>254,03232741274647</Y><PredkoscX>4,66376273936606</PredkoscX><PredkoscY>4,306672549265532</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 22<X>236,83814407188623</X><Y>243,6282375544477</Y><PredkoscX>-2,8157634849526545</PredkoscX><PredkoscY>-2,067402362998041</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 23<X>291,17995189920174</X><Y>391,7935259446899</Y><PredkoscX>-0,5843584417376118</PredkoscX><PredkoscY>0,3833895588966847</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 24<X>255,23479914848045</X><Y>194,48812432460932</Y><PredkoscX>3,4411618126207664</PredkoscX><PredkoscY>2,7959656241393196</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 25<X>350,5758168834029</X><Y>438,2215036709884</Y><PredkoscX>0,7722048094672873</PredkoscX><PredkoscY>-0,01419214391903445</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 26<X>42,450550805470485</X><Y>11,387603927067252</Y><PredkoscX>1,2300418044931671</PredkoscX><PredkoscY>-3,9465966877912195</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 27<X>143,1872277487472</X><Y>200,02671646482133</Y><PredkoscX>3,2184721422708424</PredkoscX><PredkoscY>-4,350003164780416</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 28<X>11,584926393068885</X><Y>77,45760433148433</Y><PredkoscX>-1,643713540564209</PredkoscX><PredkoscY>2,2402663224533974</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 29<X>456,9965080006185</X><Y>137,87031898805236</Y><PredkoscX>-2,3329526135258707</PredkoscX><PredkoscY>-0,6241012246264734</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 30<X>132,39304223939365</X><Y>1,341633228799851</Y><PredkoscX>-4,495106751365824</PredkoscX><PredkoscY>1,341633228799851</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 31<X>403,37358237154405</X><Y>295,0924577139938</Y><PredkoscX>0,844202429905911</PredkoscX><PredkoscY>0,14801896134208814</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 32<X>456,79103777004906</X><Y>205,6446101760351</Y><PredkoscX>0,5464561209001486</PredkoscX><PredkoscY>4,667285775664382</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 33<X>192,62198502134237</X><Y>266,3459460585456</Y><PredkoscX>0,849483266286458</PredkoscX><PredkoscY>3,6327004844504067</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="5">
+    <czas>23.05.2023 12:03:52</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>33</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>84,58136067855692</X><Y>1,5931547866543427</Y><PredkoscX>-4,4882601450064685</PredkoscX><PredkoscY>1,5931547866543427</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 2<X>446,7679401763596</X><Y>10,951202935640453</Y><PredkoscX>4,841507342497314</PredkoscX><PredkoscY>2,2439889401729456</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 3<X>377,39758138932416</X><Y>239,52880547926685</Y><PredkoscX>-4,246247668124337</PredkoscX><PredkoscY>-3,246416139597682</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 4<X>16,978355863762626</X><Y>182,68955101752155</Y><PredkoscX>-0,6936548095305497</PredkoscX><PredkoscY>1,5793344166653176</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 5<X>409,71971885771984</X><Y>385,60006801914915</Y><PredkoscX>2,0146579038200993</PredkoscX><PredkoscY>-4,824734820564025</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 6<X>85,92415742422996</X><Y>130,1107049806401</Y><PredkoscX>-2,2946155002131885</PredkoscX><PredkoscY>-2,636066747647967</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 7<X>71,23224352855055</X><Y>294,36929215988675</Y><PredkoscX>-2,126192670321979</PredkoscX><PredkoscY>1,2485407785684917</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 8<X>326,31927499832864</X><Y>424,21975985381886</Y><PredkoscX>-2,3726038476640654</PredkoscX><PredkoscY>1,3385827662676597</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 9<X>62,01447177596812</X><Y>189,04886092848255</Y><PredkoscX>-1,778214196357466</PredkoscX><PredkoscY>-1,430302949784783</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+      <kula>Kula 10<X>355,01608428112456</X><Y>337,81593936752506</Y><PredkoscX>3,3681326291584917</PredkoscX><PredkoscY>3,324595857064022</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 11<X>19,62361283875334</X><Y>75,2391634669041</Y><PredkoscX>-2,080431745010637</PredkoscX><PredkoscY>4,40656119020421</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 12<X>186,1936293589578</X><Y>355,2214524602194</Y><PredkoscX>-1,1200279542411549</PredkoscX><PredkoscY>4,743347543994975</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 13<X>136,95739315710642</X><Y>248,18978667627633</Y><PredkoscX>0,8938272642285892</PredkoscX><PredkoscY>4,51792093184925</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 14<X>225,06606440594283</X><Y>419,81629420470654</Y><PredkoscX>1,6520862583419422</PredkoscX><PredkoscY>-2,070904294627071</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 15<X>285,2636836565582</X><Y>299,8312334370832</Y><PredkoscX>-3,8508537739951976</PredkoscX><PredkoscY>-0,03236636172846108</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 16<X>239,7904719074591</X><Y>209,75828181756577</Y><PredkoscX>-0,8441343006543987</PredkoscX><PredkoscY>3,9760686298431676</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 17<X>176,05962755509944</X><Y>304,55735910924625</Y><PredkoscX>4,521329821890683</PredkoscX><PredkoscY>-2,8872762193080437</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 18<X>199,07143900073396</X><Y>73,63149847969859</Y><PredkoscX>-0,3966283756263085</PredkoscX><PredkoscY>2,942719303911108</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 19<X>293,78427157181954</X><Y>202,60106417498667</Y><PredkoscX>1,660136156246816</PredkoscX><PredkoscY>2,3495212737158644</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 20<X>400,1460653671355</X><Y>447,9659825230382</Y><PredkoscX>2,119300398066307</PredkoscX><PredkoscY>3,7141579370474016</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 21<X>2,301183353308348</X><Y>317,202144681077</Y><PredkoscX>-3,8605280725130218</PredkoscX><PredkoscY>-3,5685556035547403</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 22<X>346,8323776517593</X><Y>197,23639982644937</Y><PredkoscX>4,337373733088205</PredkoscX><PredkoscY>3,6146108211390118</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 23<X>442,6977394668272</X><Y>73,99041192017756</Y><PredkoscX>1,2575312149790827</PredkoscX><PredkoscY>4,6747614673956015</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 24<X>139,44099913484837</X><Y>166,86340743155</Y><PredkoscX>-0,4158700386156866</PredkoscX><PredkoscY>4,996747299077484</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 25<X>49,32861618395742</X><Y>361,1429283583691</Y><PredkoscX>-4,374142761576049</PredkoscX><PredkoscY>3,0855749295096366</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 26<X>398,17612029519535</X><Y>312,1693072778073</Y><PredkoscX>3,817995208614688</PredkoscX><PredkoscY>-3,2861329092926885</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 27<X>428,2833161843167</X><Y>151,134698029146</Y><PredkoscX>4,44926951782845</PredkoscX><PredkoscY>-4,6118545998569385</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 28<X>443,3021695473617</X><Y>453,62931824232</Y><PredkoscX>-4,079014215573889</PredkoscX><PredkoscY>0,951496609782799</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 29<X>67,77739818046157</X><Y>246,7921520459612</Y><PredkoscX>-0,20223349560655723</PredkoscX><PredkoscY>1,2564883570758898</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 30<X>327,5875412204464</X><Y>84,46720665331615</Y><PredkoscX>4,399720813290326</PredkoscX><PredkoscY>4,646981992393195</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 31<X>124,88784728938205</X><Y>336,7993657039482</Y><PredkoscX>-1,9666188632448458</PredkoscX><PredkoscY>-1,0661226777838761</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 32<X>88,13974364714029</X><Y>415,68819846729605</Y><PredkoscX>2,7160556696084823</PredkoscX><PredkoscY>0,3426311077173283</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 33<X>217,89887711810286</X><Y>24,575132246842603</Y><PredkoscX>-4,873591958111755</PredkoscX><PredkoscY>-0,634184054598677</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="5">
+    <czas>23.05.2023 12:03:54</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>33</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>16,93321146403773</X><Y>39,91423084626424</Y><PredkoscX>-0,891216162514333</PredkoscX><PredkoscY>9,97855771156606</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 2<X>228,48250063402529</X><Y>88,58771443938132</Y><PredkoscX>-0,5514438449041756</PredkoscX><PredkoscY>-5,67036513602174</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 3<X>366,0943220612582</X><Y>166,7524531420193</Y><PredkoscX>1,2113366860046952</PredkoscX><PredkoscY>-3,5634104143044847</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 4<X>24,467222081576274</X><Y>138,5224243769304</Y><PredkoscX>8,155740693858759</PredkoscX><PredkoscY>2,226547348957273</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 5<X>366,7069992394478</X><Y>317,9166274346711</Y><PredkoscX>-3,5472198796585124</PredkoscX><PredkoscY>-8,341741968917638</PredkoscY><Srednica>40</Srednica><Masa>7</Masa></kula>
+      <kula>Kula 6<X>104,95597775553874</X><Y>75,83472542346145</Y><PredkoscX>0,5517094587054916</PredkoscX><PredkoscY>-0,1442326748421453</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 7<X>6,3637965229308815</X><Y>181,00132420108625</Y><PredkoscX>0,3202990188342681</PredkoscX><PredkoscY>-1,5031836865200134</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 8<X>341,49391789764684</X><Y>448,0559106150622</Y><PredkoscX>5,173161237631177</PredkoscX><PredkoscY>0,9368776910189925</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 9<X>103,62499570006149</X><Y>200,38712114118948</Y><PredkoscX>-4,051808130085216</PredkoscX><PredkoscY>-1,317190070665466</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+      <kula>Kula 10<X>262,4079535119805</X><Y>214,41579485900607</Y><PredkoscX>-1,6480626468044544</PredkoscX><PredkoscY>-4,175725961467687</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 11<X>62,48268580795671</X><Y>89,35499633671455</Y><PredkoscX>-3,2885737939719895</PredkoscX><PredkoscY>-2,106038686029713</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 12<X>198,53706158714056</X><Y>436,29892347408827</Y><PredkoscX>-0,46699011435193344</PredkoscX><PredkoscY>-1,1850538262955896</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 13<X>268,71381183152903</X><Y>451,17389062964685</Y><PredkoscX>3,143090629926736</PredkoscX><PredkoscY>-4,413054685176569</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 14<X>256,79249260586624</X><Y>321,0067463089562</Y><PredkoscX>0,8608028194771157</PredkoscX><PredkoscY>-1,0238145642571648</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 15<X>209,5958710632232</X><Y>253,7234419975423</Y><PredkoscX>-5,370182404647802</PredkoscX><PredkoscY>-1,6860486813260833</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 16<X>277,94381830811636</X><Y>155,140174255856</Y><PredkoscX>-1,7812657299090418</PredkoscX><PredkoscY>-1,9467781261919068</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 17<X>198,3508650543136</X><Y>376,5403090672197</Y><PredkoscX>-0,19365480919838374</PredkoscX><PredkoscY>-4,435606325057007</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 18<X>158,31700399823924</X><Y>115,49412492470285</Y><PredkoscX>1,0176194616424064</PredkoscX><PredkoscY>0,7309568661760647</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 19<X>150,0603948793095</X><Y>214,92156921246402</Y><PredkoscX>3,0274792220387736</PredkoscX><PredkoscY>-2,1598796081847533</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 20<X>384,9066836843135</X><Y>403,69564921162186</Y><PredkoscX>-1,2452667298451632</PredkoscX><PredkoscY>1,8705977845263984</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 21<X>57,94249022106565</X><Y>229,60222248808265</Y><PredkoscX>-1,6850434864162918</PredkoscX><PredkoscY>3,765077773155764</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 22<X>327,99605580270645</X><Y>193,64783382802958</Y><PredkoscX>5,40938192064716</PredkoscX><PredkoscY>2,7193202929042353</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 23<X>284,25938052854525</X><Y>50,004663885390876</Y><PredkoscX>-2,634083285626577</PredkoscX><PredkoscY>3,333644259026058</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 24<X>109,00878462798079</X><Y>385,11999248861196</Y><PredkoscX>-2,5433554223083923</PredkoscX><PredkoscY>1,234289830732856</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 25<X>27,13634109498976</X><Y>334,6893848766194</Y><PredkoscX>1,9383100782135543</PredkoscX><PredkoscY>-1,5373685991892958</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 26<X>408,4999612332398</X><Y>361,3209189405387</Y><PredkoscX>4,551290837751629</PredkoscX><PredkoscY>2,9660958920753187</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 27<X>401,0395896060588</X><Y>41,186091111581725</Y><PredkoscX>-0,6432213588693495</PredkoscX><PredkoscY>-3,5975731339221304</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 28<X>433,7861622029593</X><Y>427,4958345547377</Y><PredkoscX>3,89714479958316</PredkoscX><PredkoscY>-0,18457290512058702</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 29<X>141,9018016944195</X><Y>329,3090062077246</Y><PredkoscX>1,4354202122176407</PredkoscX><PredkoscY>-0,08144699392257976</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 30<X>357,9058908443845</X><Y>5,542779606482338</Y><PredkoscX>0,22420879131627056</PredkoscX><PredkoscY>-3,0563026098207593</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 31<X>68,3164718480767</X><Y>385,04879051383796</Y><PredkoscX>-0,4158700386156866</PredkoscX><PredkoscY>-4,996747299077484</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 32<X>155,61316614970343</X><Y>447,1937858623671</Y><PredkoscX>-0,7487283410385396</PredkoscX><PredkoscY>3,4091884290452374</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 33<X>158,16575613671614</X><Y>25,342891170111372</Y><PredkoscX>2,2182610292119045</PredkoscX><PredkoscY>1,1018648334831036</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="6">
+    <czas>23.05.2023 20:38:21</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>6</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>318,91111662672614</X><Y>316,42901668569846</Y><PredkoscX>-1,196334886829872</PredkoscX><PredkoscY>3,807502601272887</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 2<X>239,27294429570222</X><Y>58,41875212024181</Y><PredkoscX>-4,938039067836532</PredkoscX><PredkoscY>-0,3549116387268372</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 3<X>33,64818271408865</X><Y>297,62671177030165</Y><PredkoscX>1,0589776196784726</PredkoscX><PredkoscY>-4,561852149304001</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 4<X>161,39379775762401</X><Y>344,4766697556137</Y><PredkoscX>4,694394304331768</PredkoscX><PredkoscY>-3,268632861202149</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 5<X>192,12914035467085</X><Y>396,1603486827969</Y><PredkoscX>0,177626759029744</PredkoscX><PredkoscY>-0,2720536535551288</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 6<X>92,50063801434713</X><Y>293,3283874278444</Y><PredkoscX>2,653447152931845</PredkoscX><PredkoscY>-1,2061702130731677</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="6">
+    <czas>23.05.2023 20:38:42</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>6</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>92,02359536473523</X><Y>96,85917718254234</Y><PredkoscX>-2,2195619614622006</PredkoscX><PredkoscY>-0,3245456257241571</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 2<X>122,81501268571571</X><Y>135,89775746233585</Y><PredkoscX>3,8872114591666818</PredkoscX><PredkoscY>4,814813447437704</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 3<X>72,5536078539215</X><Y>212,29272966249118</Y><PredkoscX>-3,0975383226790516</PredkoscX><PredkoscY>4,245854593249826</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 4<X>148,4939610437291</X><Y>241,58110685111936</Y><PredkoscX>2,357047000694116</PredkoscX><PredkoscY>1,7255793346508477</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 5<X>415,4022523811664</X><Y>236,7193979910837</Y><PredkoscX>2,5292653665413427</PredkoscX><PredkoscY>4,734387959821672</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 6<X>48,746015435046104</X><Y>57,35947737956786</Y><PredkoscX>-3,3136378729706215</PredkoscX><PredkoscY>0,7586955971266929</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="7">
+    <czas>23.05.2023 20:47:23</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>5</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>203,56928690229034</X><Y>66,69445911653354</Y><PredkoscX>-0,9750900242522986</PredkoscX><PredkoscY>2,5002345075452146</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 2<X>114,07650243642148</X><Y>416,55677618634746</Y><PredkoscX>0,2114630730079039</PredkoscX><PredkoscY>-0,6152546343005287</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 3<X>414,80874567294177</X><Y>368,6385222017361</Y><PredkoscX>-3,7884415371148195</PredkoscX><PredkoscY>3,5716125511865897</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 4<X>222,37452458036142</X><Y>303,6778156149535</Y><PredkoscX>-3,3322604883109186</PredkoscX><PredkoscY>-0,7990543763633893</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 5<X>36,48649928729017</X><Y>42,02466082213931</Y><PredkoscX>0,2125595032735923</PredkoscX><PredkoscY>-0,8970950646269316</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="7">
+    <czas>23.05.2023 20:47:25</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>5</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>39,306928542517426</X><Y>200,0204334646029</Y><PredkoscX>1,4558121682413854</PredkoscX><PredkoscY>3,2794977937714793</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 2<X>144,31572187655198</X><Y>328,5753634813721</Y><PredkoscX>0,2114630730079039</PredkoscX><PredkoscY>-0,6152546343005287</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 3<X>7,03037633753924</X><Y>332,2892382501474</Y><PredkoscX>-1,848199114451012</PredkoscX><PredkoscY>0,6158681789732754</PredkoscY><Srednica>40</Srednica><Masa>19</Masa></kula>
+      <kula>Kula 4<X>256,5840575999404</X><Y>189,41303979498753</Y><PredkoscX>3,3322604883109186</PredkoscX><PredkoscY>-0,7990543763633893</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 5<X>175,3266669038878</X><Y>70,69225146412158</Y><PredkoscX>2,993178955798555</PredkoscX><PredkoscY>3,0735761506139814</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="8">
+    <czas>23.05.2023 20:47:52</czas>
+    <ruch>Prawda</ruch>
+    <iloscKul>50</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>332,5692487269576</X><Y>220,52328657501448</Y><PredkoscX>2,77678856453739</PredkoscX><PredkoscY>-4,894378972101733</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 2<X>88,53005219942122</X><Y>439,76924519088476</Y><PredkoscX>3,5526810313913977</PredkoscX><PredkoscY>-1,1960180533469877</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 3<X>339,4271595260739</X><Y>160,50633384391008</Y><PredkoscX>0,8328402251697735</PredkoscX><PredkoscY>1,743712750031147</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 4<X>343,73432525943207</X><Y>284,05863164381054</Y><PredkoscX>-4,0466485822200795</PredkoscX><PredkoscY>0,41388003166684406</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 5<X>27,35444218560739</X><Y>454,082411499133</Y><PredkoscX>-3,9579428091632654</PredkoscX><PredkoscY>-4,73464748858826</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 6<X>388,2656489486432</X><Y>351,27404598756476</Y><PredkoscX>-2,814443692469457</PredkoscX><PredkoscY>4,080005131601215</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 7<X>217,20401431473647</X><Y>373,41198396988574</Y><PredkoscX>0,8748079854459903</PredkoscX><PredkoscY>4,380552072158094</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 8<X>407,20416758696325</X><Y>427,978887412057</Y><PredkoscX>-0,8847564221333535</PredkoscX><PredkoscY>-0,6545711795716844</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 9<X>230,80378011547438</X><Y>418,77437890748695</Y><PredkoscX>1,7208152901821752</PredkoscX><PredkoscY>4,6812480829083665</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 10<X>52,914382225366886</X><Y>274,88158060472864</Y><PredkoscX>-3,3762662232169784</PredkoscX><PredkoscY>4,2778959992748895</PredkoscY><Srednica>40</Srednica><Masa>16</Masa></kula>
+      <kula>Kula 11<X>435,5639491361443</X><Y>363,25527424335564</Y><PredkoscX>-2,537466818273013</PredkoscX><PredkoscY>-2,2347479914977644</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 12<X>264,2301632819429</X><Y>262,4537117270527</Y><PredkoscX>-4,300228251213626</PredkoscX><PredkoscY>-1,7452616627824877</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 13<X>94,21338864160779</X><Y>206,11629659227407</Y><PredkoscX>1,8422663680412557</PredkoscX><PredkoscY>2,389334476684888</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 14<X>317,1120999115424</X><Y>9,409080999950671</Y><PredkoscX>4,910129618414338</PredkoscX><PredkoscY>0,829640453126153</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 15<X>86,56938614302715</X><Y>115,20736181100621</Y><PredkoscX>-2,970321707553797</PredkoscX><PredkoscY>-0,661554490415118</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 16<X>350,9187857302383</X><Y>440,6202653453483</Y><PredkoscX>1,5872592763276288</PredkoscX><PredkoscY>-3,9531475038845034</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 17<X>44,439910803580666</X><Y>43,31539756620447</Y><PredkoscX>-2,8184102937575872</PredkoscX><PredkoscY>2,2472219807247704</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 18<X>355,3413982000031</X><Y>387,5140528504417</Y><PredkoscX>-3,5912963485685303</PredkoscX><PredkoscY>2,719307609394722</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 19<X>251,77820422689481</X><Y>77,86362250106887</Y><PredkoscX>3,9432833503111624</PredkoscX><PredkoscY>0,4608493160674856</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 20<X>436,7682076948388</X><Y>58,11064149762589</Y><PredkoscX>0,32183288378355535</PredkoscX><PredkoscY>1,483713754704132</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 21<X>161,08956376482283</X><Y>117,61810629435772</Y><PredkoscX>-1,7659882320073939</PredkoscX><PredkoscY>-3,1394985124193173</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 22<X>313,5038543333206</X><Y>81,72677073258777</Y><PredkoscX>1,5008277791610292</PredkoscX><PredkoscY>3,82963381985056</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 23<X>254,66862199216163</X><Y>184,506458483887</Y><PredkoscX>3,7886709151310054</PredkoscX><PredkoscY>2,0778741328810764</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 24<X>190,07530941785564</X><Y>244,04314188705123</Y><PredkoscX>3,413235062129292</PredkoscX><PredkoscY>0,23475941146784063</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+      <kula>Kula 25<X>113,19349387604687</X><Y>362,3215335967687</Y><PredkoscX>1,6266398418332217</PredkoscX><PredkoscY>0,8973819915807448</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 26<X>143,35768189527838</X><Y>312,61448476136553</Y><PredkoscX>4,157659041821823</PredkoscX><PredkoscY>4,36545072725947</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 27<X>175,26539226055368</X><Y>76,01565391621638</Y><PredkoscX>1,2853817247780928</PredkoscX><PredkoscY>-0,9307304804874121</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 28<X>259,0626071066481</X><Y>332,8248686856369</Y><PredkoscX>-3,8175501025377123</PredkoscX><PredkoscY>4,734788438283809</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 29<X>456,3923487626117</X><Y>194,29235362351534</Y><PredkoscX>4,289965575189466</PredkoscX><PredkoscY>-2,338930035088569</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 30<X>150,17844297167125</X><Y>459,74108336973563</Y><PredkoscX>-1,1792288968733864</PredkoscX><PredkoscY>-4,657814657782887</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 31<X>298,6840275354658</X><Y>419,11910063313377</Y><PredkoscX>-1,161976973241389</PredkoscX><PredkoscY>-3,4933954271847822</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 32<X>189,9855180733841</X><Y>23,55071329295982</Y><PredkoscX>-3,448398977155931</PredkoscX><PredkoscY>-0,973725455236992</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 33<X>146,30372977871966</X><Y>236,83246721444897</Y><PredkoscX>3,7416422985933036</PredkoscX><PredkoscY>2,5091552571737736</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 34<X>417,64232708702616</X><Y>116,44938061633937</Y><PredkoscX>3,3359345364946495</PredkoscX><PredkoscY>1,9833027279982405</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 35<X>391,30615255970093</X><Y>249,91324874920474</Y><PredkoscX>4,14047461586518</PredkoscX><PredkoscY>3,0773291363160187</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 36<X>279,67124806356327</X><Y>375,21644897312217</Y><PredkoscX>3,9875590532509104</PredkoscX><PredkoscY>-2,9844278186204</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 37<X>458,0240201829616</X><Y>240,82289891547856</Y><PredkoscX>-3,9096645098834615</PredkoscX><PredkoscY>4,2130385835908974</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 38<X>172,89946586038</X><Y>375,2415134392547</Y><PredkoscX>-1,7690662518882938</PredkoscX><PredkoscY>2,3079020503796235</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 39<X>262,56136092161404</X><Y>132,5416512359667</Y><PredkoscX>0,6178886634221374</PredkoscX><PredkoscY>4,71129495093049</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 40<X>34,7421774321913</X><Y>399,5429195610506</Y><PredkoscX>-2,0162641815172955</PredkoscX><PredkoscY>0,4679222650857051</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 41<X>333,13661697682727</X><Y>346,93773235531324</Y><PredkoscX>-1,497210298323246</PredkoscX><PredkoscY>-3,0185057018574057</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 42<X>213,3076170972246</X><Y>144,713396389594</Y><PredkoscX>1,7836261361164887</PredkoscX><PredkoscY>-0,5447704302027665</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 43<X>203,06524909115097</X><Y>189,09625617014302</Y><PredkoscX>-4,360187191929724</PredkoscX><PredkoscY>-2,088305831896302</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 44<X>382,5884679224012</X><Y>64,9650815419144</Y><PredkoscX>0,970047566460126</PredkoscX><PredkoscY>4,227520310410938</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 45<X>192,14622063712602</X><Y>295,32334546765264</Y><PredkoscX>4,815406741260441</PredkoscX><PredkoscY>4,7249452924609034</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 46<X>43,244263760050416</X><Y>345,41290160681297</Y><PredkoscX>-0,23752713259826752</PredkoscX><PredkoscY>-0,8287006636856784</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 47<X>43,66325147073628</X><Y>104,25212148526191</Y><PredkoscX>3,6819585281871507</PredkoscX><PredkoscY>-1,6177892457798873</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 48<X>158,00127408753576</X><Y>180,9083120104608</Y><PredkoscX>-3,3351297938381084</PredkoscX><PredkoscY>0,260862959190705</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+      <kula>Kula 49<X>248,25765824229305</X><Y>31,491222208598103</Y><PredkoscX>4,556246759326994</PredkoscX><PredkoscY>-1,1336951452988275</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 50<X>389,61855148638887</X><Y>203,45152541563192</Y><PredkoscX>-3,6240475721474397</PredkoscX><PredkoscY>3,1329382036888127</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+    </listaKul>
+  </log>
+  <log sessionID="8">
+    <czas>23.05.2023 20:47:56</czas>
+    <ruch>Fałsz</ruch>
+    <iloscKul>50</iloscKul>
+    <listaKul>
+      <kula>Kula 1<X>355,6133391490717</X><Y>270,47170517696196</Y><PredkoscX>1,1127630220992548</PredkoscX><PredkoscY>-2,2275153542288146</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 2<X>77,328458904223</X><Y>393,25434828410846</Y><PredkoscX>2,3558028178925605</PredkoscX><PredkoscY>-1,6193782086394615</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 3<X>196,9481240858795</X><Y>175,29514261505346</Y><PredkoscX>2,855836981081767</PredkoscX><PredkoscY>0,1165734297818734</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 4<X>296,7305669225475</X><Y>373,1486001953332</Y><PredkoscX>0,2847403485777791</PredkoscX><PredkoscY>-3,272758711419983</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 5<X>9,879500904276533</X><Y>448,51429298277003</Y><PredkoscX>-5,444789741784631</PredkoscX><PredkoscY>-0,4123448784631587</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 6<X>363,9080700331251</X><Y>357,8884749116214</Y><PredkoscX>-5,178165439368545</PredkoscX><PredkoscY>-5,3079627814053385</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 7<X>141,8934979229868</X><Y>373,26169840487984</Y><PredkoscX>-1,4482975294230727</PredkoscX><PredkoscY>-0,30127228002850615</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 8<X>455,8865116727577</X><Y>455,04654152614347</Y><PredkoscX>-1,0283720818105817</PredkoscX><PredkoscY>-4,95345847385653</PredkoscY><Srednica>40</Srednica><Masa>12</Masa></kula>
+      <kula>Kula 9<X>318,69922268295903</X><Y>417,6923356689386</Y><PredkoscX>-2,451354200687909</PredkoscX><PredkoscY>-2,341449854698948</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 10<X>43,67789577550496</X><Y>208,48412317198978</Y><PredkoscX>-1,4965920588702257</PredkoscX><PredkoscY>0,09970284137249881</PredkoscY><Srednica>40</Srednica><Masa>16</Masa></kula>
+      <kula>Kula 11<X>447,90983604758367</X><Y>386,2413469449359</Y><PredkoscX>-0,1471586978777917</PredkoscX><PredkoscY>3,5266299147703943</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 12<X>298,25545693654715</X><Y>198,68362349112724</Y><PredkoscX>10,320146634310364</PredkoscX><PredkoscY>4,346132014906315</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 13<X>232,33352069242449</X><Y>198,2023579077813</Y><PredkoscX>0,7367891628020063</PredkoscX><PredkoscY>-2,021469248417718</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 14<X>452,55002710076985</X><Y>52,55841321801306</Y><PredkoscX>1,0427380124924412</PredkoscX><PredkoscY>-1,1532214803441605</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 15<X>133,50659093835952</X><Y>161,848555817739</Y><PredkoscX>-2,9928940418356005</PredkoscX><PredkoscY>6,55424154788936</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 16<X>386,9401825927813</X><Y>438,63406732177964</Y><PredkoscX>-2,033918151076106</PredkoscX><PredkoscY>-4,2731865356440775</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 17<X>82,18774957902458</X><Y>4,97518337703482</Y><PredkoscX>1,197683983552661</PredkoscX><PredkoscY>4,97518337703482</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 18<X>333,0108930765456</X><Y>456,114788139449</Y><PredkoscX>-2,365002516474125</PredkoscX><PredkoscY>-0,10792387792777498</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 19<X>389,51477463853337</X><Y>5,7664872922833865</Y><PredkoscX>1,3712889098213616</PredkoscX><PredkoscY>2,8832436461416933</PredkoscY><Srednica>40</Srednica><Masa>23</Masa></kula>
+      <kula>Kula 20<X>401,08839579457646</X><Y>65,84367376372536</Y><PredkoscX>2,060442192638798</PredkoscX><PredkoscY>2,9476043549104514</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 21<X>309,5894328691892</X><Y>58,766088331075835</Y><PredkoscX>2,509877095211723</PredkoscX><PredkoscY>-4,608563106574667</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 22<X>351,53384831856164</X><Y>95,7086996103733</Y><PredkoscX>2,8625171894116845</PredkoscX><PredkoscY>0,037673043458495384</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 23<X>261,9316474887863</X><Y>253,16874611874</Y><PredkoscX>3,2979375473177583</PredkoscX><PredkoscY>3,609253098208416</PredkoscY><Srednica>40</Srednica><Masa>15</Masa></kula>
+      <kula>Kula 24<X>208,230508999307</X><Y>268,21541091811696</Y><PredkoscX>3,759052753120747</PredkoscX><PredkoscY>2,266042218003717</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+      <kula>Kula 25<X>60,47661132354887</X><Y>342,3137346727177</Y><PredkoscX>2,358104292743823</PredkoscX><PredkoscY>3,417635632433286</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 26<X>112,44148001515666</X><Y>322,0075934720244</Y><PredkoscX>-4,654055385806315</PredkoscX><PredkoscY>-3,338532168972864</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 27<X>359,05596303026425</X><Y>46,501683017406336</Y><PredkoscX>3,794409338830057</PredkoscX><PredkoscY>-0,48644947397770694</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 28<X>237,97525708870782</X><Y>318,03990233340903</Y><PredkoscX>4,129511071708665</PredkoscX><PredkoscY>1,0486034543306813</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 29<X>455,68626943277206</X><Y>233,9062278550929</Y><PredkoscX>-1,4379101890759567</PredkoscX><PredkoscY>2,4236004026738276</PredkoscY><Srednica>40</Srednica><Masa>18</Masa></kula>
+      <kula>Kula 30<X>72,59547854604412</X><Y>439,3166338021953</Y><PredkoscX>6,220300993939327</PredkoscX><PredkoscY>1,5185615885170427</PredkoscY><Srednica>40</Srednica><Masa>17</Masa></kula>
+      <kula>Kula 31<X>269,5262879057493</X><Y>414,05631987220204</Y><PredkoscX>-2,6238868586673654</PredkoscX><PredkoscY>-4,594368012779779</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 32<X>184,46565829753212</X><Y>7,676716681830385</Y><PredkoscX>4,3129356376529175</PredkoscX><PredkoscY>-5,14420418334165</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 33<X>75,33494715396797</X><Y>176,80045545202964</Y><PredkoscX>-6,577065375317983</PredkoscX><PredkoscY>3,489874163629896</PredkoscY><Srednica>40</Srednica><Masa>11</Masa></kula>
+      <kula>Kula 34<X>447,7672126039586</X><Y>100,2979545970405</Y><PredkoscX>0,17138965414473645</PredkoscX><PredkoscY>-0,8407694304471385</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 35<X>401,98506324099617</X><Y>257,35507052276347</Y><PredkoscX>4,207122864570589</PredkoscX><PredkoscY>2,6412138080991205</PredkoscY><Srednica>40</Srednica><Masa>5</Masa></kula>
+      <kula>Kula 36<X>246,01043050330418</X><Y>375,47950907695076</Y><PredkoscX>-1,2489537863290225</PredkoscX><PredkoscY>-0,7172580945160212</PredkoscY><Srednica>40</Srednica><Masa>13</Masa></kula>
+      <kula>Kula 37<X>370,78787256412204</X><Y>216,05342007934792</Y><PredkoscX>-1,285557359061288</PredkoscX><PredkoscY>0,8303225355930639</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 38<X>120,00589193513193</X><Y>421,75019069282104</Y><PredkoscX>-2,4788164341424093</PredkoscX><PredkoscY>0,8951277388884531</PredkoscY><Srednica>40</Srednica><Masa>22</Masa></kula>
+      <kula>Kula 39<X>263,9761804812348</X><Y>97,21831617048814</Y><PredkoscX>-1,293258412872184</PredkoscX><PredkoscY>5,844388469478323</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 40<X>17,17502549689111</X><Y>101,38612141189321</Y><PredkoscX>4,293756374222777</PredkoscX><PredkoscY>4,511704700444389</PredkoscY><Srednica>40</Srednica><Masa>9</Masa></kula>
+      <kula>Kula 41<X>391,1068344102462</X><Y>316,4552761380931</Y><PredkoscX>2,778138745438021</PredkoscX><PredkoscY>0,962182426844031</PredkoscY><Srednica>40</Srednica><Masa>10</Masa></kula>
+      <kula>Kula 42<X>268,8900152281831</X><Y>20,113005173787098</Y><PredkoscX>-2,5201617263540452</PredkoscX><PredkoscY>-1,1625017573196361</PredkoscY><Srednica>40</Srednica><Masa>14</Masa></kula>
+      <kula>Kula 43<X>72,20372286466117</X><Y>269,07907014638437</Y><PredkoscX>-2,2131700900087306</PredkoscX><PredkoscY>7,8695811836292435</PredkoscY><Srednica>40</Srednica><Masa>8</Masa></kula>
+      <kula>Kula 44<X>343,97117651099086</X><Y>138,10930027096134</Y><PredkoscX>-2,553587169660277</PredkoscX><PredkoscY>-2,607017685860647</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 45<X>156,38905027000655</X><Y>294,1739384842798</Y><PredkoscX>-0,5578817570590263</PredkoscX><PredkoscY>4,011059203922421</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+      <kula>Kula 46<X>127,28875190660469</X><Y>205,68216921872605</Y><PredkoscX>-1,333082151460786</PredkoscX><PredkoscY>-3,1680372989527337</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 47<X>63,98102590774025</X><Y>52,66555857196645</Y><PredkoscX>2,8448519799788685</PredkoscX><PredkoscY>0,07166208770555266</PredkoscY><Srednica>40</Srednica><Masa>24</Masa></kula>
+      <kula>Kula 48<X>87,42594257029147</X><Y>123,41691480001256</Y><PredkoscX>0,7915420768580623</PredkoscX><PredkoscY>2,6575572902327043</PredkoscY><Srednica>40</Srednica><Masa>20</Masa></kula>
+      <kula>Kula 49<X>449,10365449607224</X><Y>2,9815061624378227</Y><PredkoscX>-10,89634550392776</PredkoscX><PredkoscY>-4,113085373863684</PredkoscY><Srednica>40</Srednica><Masa>6</Masa></kula>
+      <kula>Kula 50<X>347,2744388091858</X><Y>183,03530499293507</Y><PredkoscX>0,00027618865193962535</PredkoscX><PredkoscY>0,9971932468832433</PredkoscY><Srednica>40</Srednica><Masa>21</Masa></kula>
+    </listaKul>
+  </log>
+</root>

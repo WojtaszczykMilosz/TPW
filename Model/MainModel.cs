@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using Dane;
 using Logika;
 
@@ -63,6 +64,7 @@ namespace Model
         }
         public void Stop()
         {
+            Debug.WriteLine(DateTime.Now.Millisecond);
             logicApi.AnulujToken();
             logicApi.ZapiszDoXML();
         }
