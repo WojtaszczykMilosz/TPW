@@ -51,12 +51,14 @@ namespace Model
         {
             logicApi.PrzemieszczajKule();
             logicApi.RozpocznijInformatora(2000);
+            logicApi.ZapiszDoXML();
         }
         public void StworzKule()
         {
             kule.Clear();
             logicApi.TworzKule(iloscKulek);
             WczytajKule();
+            Logger.NewSession();
 
         }
         public void Stop()

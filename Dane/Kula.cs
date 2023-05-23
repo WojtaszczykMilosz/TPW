@@ -4,6 +4,7 @@ namespace Dane
 {
     public class Kula : NotifiedObject
     {
+        private readonly object zamek = new object();
         public Kula() {
             masa = 1;
         }
@@ -15,8 +16,11 @@ namespace Dane
             get { return x; } 
             set 
             {
-                x = value; 
-                OnPropertyChanged(nameof(X));
+                lock (this)
+                {
+                    x = value;
+                    OnPropertyChanged(nameof(X));
+                }
             } 
         }
 
@@ -27,8 +31,11 @@ namespace Dane
             get { return y; }
             set 
             {
-                y = value;
-                OnPropertyChanged(nameof(Y));
+                lock (this)
+                {
+                    y = value;
+                    OnPropertyChanged(nameof(Y));
+                }
             } 
         }
 
@@ -44,14 +51,24 @@ namespace Dane
         public double PredkoscX
         { 
             get { return predkoscX; } 
-            set { predkoscX = value; }
+            set {
+                lock (zamek)
+                {
+                    predkoscX = value;
+                }
+            }
         }
 
         private double predkoscY;
         public double PredkoscY 
         {
             get { return predkoscY; }
-            set { predkoscY = value; }
+            set {
+                lock (zamek)
+                {
+                    predkoscY = value;
+                }
+            }
         }
 
         private int masa;

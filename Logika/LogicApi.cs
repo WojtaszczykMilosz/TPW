@@ -39,6 +39,7 @@ namespace Logika
         }
 
         private readonly object zamek = new object();
+        private readonly object zamek2 = new object();
 
         public LogicApi()
         {
@@ -183,18 +184,16 @@ namespace Logika
             while (true)
             {
                  //Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
-                lock (zamek)
+                
+                // Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
+                if (token.IsCancellationRequested)
                 {
-                   // Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
-                    if (token.IsCancellationRequested)
-                    {
-                        // Debug.WriteLine(Thread.CurrentThread.Name + " zakończyła ruch.");
-                        return;
-                    }
-                    ObslozKolizje(kula);
-                    kula.Przemieszczaj();
-                    
+                    // Debug.WriteLine(Thread.CurrentThread.Name + " zakończyła ruch.");
+                    return;
                 }
+                ObslozKolizje(kula);
+                kula.Przemieszczaj();
+                
                 Thread.Sleep(10);
             }
         }
@@ -255,13 +254,21 @@ namespace Logika
 
         public void ObslozKolizjeZInnaKula(Kula kula)
         {
+            int i = kule.FindIndex(0, kule.Count, (Kula k) => { return k == kula; });
+            int j = 0;
             foreach (var innaKula in kule)
             {
-                if (SprawdzKolizjeKuli(kula, innaKula))
+                lock (zamek)
                 {
+                    if (SprawdzKolizjeKuli(kula, innaKula))
+                    {
 
-                    OdbijKule(kula, innaKula);
+                        //LogujOdbicie(i, j);
+                        Logger.LoggujKolizje(DateTime.Now, i, j);
+                        OdbijKule(kula, innaKula);
+                    }
                 }
+                j++;
             }
         }
 
@@ -279,24 +286,8 @@ namespace Logika
             double dy = kulaNachodzaca.Y + (kulaNachodzaca.Srednica / 2) + kulaNachodzaca.PredkoscY - (innaKula.Y + innaKula.PredkoscY + (innaKula.Srednica / 2));
 
             return Math.Sqrt((dx * dx) + (dy * dy)) <= kulaNachodzaca.Srednica / 2 + innaKula.Srednica / 2;
-
-           // return SprawdziCzyNachodziNaKuleX(kulaNachodzaca, innaKula) && SprawdziCzyNachodziNaKuleY(kulaNachodzaca, innaKula);
         }
-       /* public bool SprawdziCzyNachodziNaKuleX(Kula kulaNachodzaca, Kula innaKula)
-        {
-            bool warunek1 = kulaNachodzaca.X + kulaNachodzaca.PredkoscX < innaKula.X + innaKula.PredkoscX + innaKula.Srednica;
-            bool warunek2 = kulaNachodzaca.X + kulaNachodzaca.PredkoscX + kulaNachodzaca.Srednica > innaKula.X + innaKula.PredkoscX;
-            return warunek1 && warunek2;
-        }
-
-
-        public bool SprawdziCzyNachodziNaKuleY(Kula kulaNachodzaca, Kula innaKula)
-        {
-            bool warunek1 = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY < innaKula.Y + innaKula.PredkoscY + innaKula.Srednica;
-            bool warunek2 = kulaNachodzaca.Y + kulaNachodzaca.PredkoscY + kulaNachodzaca.Srednica > innaKula.Y + innaKula.PredkoscY;
-            return warunek1 && warunek2;
-        }*/
-
+       
 
         private void OdbijKule(Kula kulaNachodzaca, Kula innaKula)
         {
@@ -324,7 +315,13 @@ namespace Logika
             innaKula.PredkoscY = nowaPredkoscYinnejKuli;
         }
 
-        
+        //private void LogujOdbicie(int kula1Index, int kula2Index)
+        //{
+        //    Thread thread = new Thread(() => Logger.LoggujKolizje(DateTime.Now, kula1Index, kula2Index));
+        //    thread.IsBackground = true;
+        //    thread.Start();
+
+        //}
 
         public override void RozpocznijInformatora(int czas)
         {
@@ -344,7 +341,7 @@ namespace Logika
             while (true)
             {
                 //Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
-                lock (zamek)
+                lock (zamek2)
                 {
                     //Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
                     if (token.IsCancellationRequested)
