@@ -51,8 +51,8 @@ namespace Model
         public void Start()
         {
             logicApi.PrzemieszczajKule();
-            logicApi.RozpocznijInformatora(2000);
-            logicApi.ZapiszDoXML();
+            logicApi.RozpocznijInformatora(3000);
+            //logicApi.ZapiszDoXML();
         }
         public void StworzKule()
         {
@@ -66,7 +66,7 @@ namespace Model
         {
             Debug.WriteLine(DateTime.Now.Millisecond);
             logicApi.AnulujToken();
-            logicApi.ZapiszDoXML();
+            //logicApi.ZapiszDoXML();
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
 using System.IO;
 using System.Threading;
+using System.Timers;
 using System.Threading.Tasks;
 using System.Xml;
 using Dane;
@@ -11,6 +12,7 @@ namespace Logika
 {
     public class LogicApi : AbstractLogicApi
     {
+        System.Timers.Timer timer = new System.Timers.Timer();
 
         private CancellationTokenSource tworcaTokenow = null;
         private bool ruchKul = false;
@@ -70,7 +72,9 @@ namespace Logika
 
         public override void TworzKule(int ileKul)
         {
+            
             AnulujToken();
+            
             kule.Clear();
             for (int i = 0; i < ileKul; i++)
             {
@@ -88,7 +92,9 @@ namespace Logika
         public override void AnulujToken()
         {
             tworcaTokenow?.Cancel();
-            
+            timer.Enabled = false;
+            timer.Stop();
+            timer.Dispose();
             ruchKul = false;
         }
 
@@ -159,6 +165,7 @@ namespace Logika
             {
                 ruchKul = true;
                 tworcaTokenow = new CancellationTokenSource();
+                LogujKulki();
                 var token = tworcaTokenow.Token;
                 int i = 1;
                 watkiKul.Clear();
@@ -264,7 +271,7 @@ namespace Logika
                     {
 
                         //LogujOdbicie(i, j);
-                        Logger.LoggujKolizje(DateTime.Now, i, j);
+                        //Logger.LoggujKolizje(DateTime.Now, i, j);
                         OdbijKule(kula, innaKula);
                     }
                 }
@@ -315,13 +322,19 @@ namespace Logika
             innaKula.PredkoscY = nowaPredkoscYinnejKuli;
         }
 
-        //private void LogujOdbicie(int kula1Index, int kula2Index)
-        //{
-        //    Thread thread = new Thread(() => Logger.LoggujKolizje(DateTime.Now, kula1Index, kula2Index));
-        //    thread.IsBackground = true;
-        //    thread.Start();
-
-        //}
+        private void LogujKulki()
+        {
+            timer = new System.Timers.Timer();
+            timer.Interval = 2000;
+            timer.Elapsed += Zapisz;
+            timer.AutoReset = true;
+            timer.Enabled = true;
+        }
+        
+        public void Zapisz(Object state, ElapsedEventArgs args)
+        {
+            Logger.Logguj(this);
+        }
 
         public override void RozpocznijInformatora(int czas)
         {
@@ -341,16 +354,17 @@ namespace Logika
             while (true)
             {
                 //Debug.WriteLine(Thread.CurrentThread.Name + " czeka na zamek");
-                lock (zamek2)
-                {
+                //lock (zamek2)
+                //{
                     //Debug.WriteLine(Thread.CurrentThread.Name + " jest w posiadaniu zamka");
                     if (token.IsCancellationRequested)
                     {
                         //Debug.WriteLine(Thread.CurrentThread.Name + " zakończył pracę.");
                         return;
                     }
-                    dataApi.ZaktualizujKule(kule);
-                }
+                    //dataApi.ZaktualizujKule(kule);
+                    //Logger.Logguj(this);
+                //}
                 //dataApi.WypiszKule();
                 Thread.Sleep(czas);
             }

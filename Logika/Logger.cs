@@ -16,14 +16,14 @@ namespace Logika
         private static string LogSciezka = "data.xml";
         private static int sessionIDint = 0;
         private static XmlDocument xmlDocument = new XmlDocument();
-        private static XmlDocument xmlDocument2 = new XmlDocument();
-        private static string Kolizjesciezka = "collisions.xml";
+        //private static XmlDocument xmlDocument2 = new XmlDocument();
+        //private static string Kolizjesciezka = "collisions.xml";
         
         
 
         public static void NewSession()
         {
-            xmlDocument2.Load(Kolizjesciezka);
+            //xmlDocument2.Load(Kolizjesciezka);
             xmlDocument.Load(LogSciezka);
 
             XmlNodeList logs = xmlDocument.GetElementsByTagName("log");
@@ -45,7 +45,7 @@ namespace Logika
             XmlElement logElement = (XmlElement)log;
             logElement.SetAttribute("sessionID", sessionID);
             XmlNode czas = xmlDocument.CreateElement("czas");
-            czas.InnerText = DateTime.Now.Millisecond.ToString();
+            czas.InnerText = DateTime.Now.ToString();
             log.AppendChild(czas);
 
             XmlNode ruch = xmlDocument.CreateElement("ruch");
@@ -112,32 +112,32 @@ namespace Logika
         }
 
 
-        public static void LoggujKolizje(DateTime time, int kulaIndex, int kulaKolizjaIndex)
-        {
+        //public static void LoggujKolizje(DateTime time, int kulaIndex, int kulaKolizjaIndex)
+        //{
             
 
-            XmlNode kolizja = xmlDocument2.CreateElement("kolizja");
-            XmlElement kolizjaElement = (XmlElement)kolizja;
-            kolizjaElement.SetAttribute("sessionID", sessionID);
-            XmlNode czas = xmlDocument2.CreateElement("czas");
-            czas.InnerText = time.ToString();
-            kolizja.AppendChild(czas);
+        //    XmlNode kolizja = xmlDocument2.CreateElement("kolizja");
+        //    XmlElement kolizjaElement = (XmlElement)kolizja;
+        //    kolizjaElement.SetAttribute("sessionID", sessionID);
+        //    XmlNode czas = xmlDocument2.CreateElement("czas");
+        //    czas.InnerText = time.ToString();
+        //    kolizja.AppendChild(czas);
 
-            XmlNode kula1 = xmlDocument2.CreateElement("kula1");
+        //    XmlNode kula1 = xmlDocument2.CreateElement("kula1");
 
 
-            kula1.InnerText = kulaIndex.ToString();
-            XmlNode kula2 = xmlDocument2.CreateElement("kula2");
-            kula2.InnerText = kulaKolizjaIndex.ToString();
-            kolizja.AppendChild(kula1);
-            kolizja.AppendChild(kula2);
+        //    kula1.InnerText = kulaIndex.ToString();
+        //    XmlNode kula2 = xmlDocument2.CreateElement("kula2");
+        //    kula2.InnerText = kulaKolizjaIndex.ToString();
+        //    kolizja.AppendChild(kula1);
+        //    kolizja.AppendChild(kula2);
 
-            xmlDocument2.DocumentElement.AppendChild(kolizja);
-            lock (xmlDocument2)
-            {
+        //    xmlDocument2.DocumentElement.AppendChild(kolizja);
+        //    lock (xmlDocument2)
+        //    {
 
-                xmlDocument2.Save(Kolizjesciezka);
-            }
-        }
+        //        xmlDocument2.Save(Kolizjesciezka);
+        //    }
+        //}
     }
 }
